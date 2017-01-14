@@ -11,8 +11,8 @@ Auxiliary tasks share the same base A3C network with base agent and are trained 
 
 ## Auxiliary tasks
 
-**Control Task: Pixel changes.** 
-**Control Task: Network features.** 
-**Reward Task: Reward Prediction.** 
-**Value Function Replay.** 
+**Control Task: Pixel changes.**  
+**Control Task: Network features.**  
+**Reward Task: Reward Prediction.**  
+**Value Function Replay.**  
 

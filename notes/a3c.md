@@ -22,11 +22,11 @@ Yet another awesome work by Google DeepMind's team. Proposed A3C framework succe
   - **Discount factor:** 0.99;
   - **Gradient ascent update** every 5 frames or at the terminal observation (i.e. max batch size = 5; skipped frames doesn't count);
   - **Exploration rate** starts from 1.0 and linearly anneals to epsilon_min variable, where epsilson_min is sampled from distribution  taken three values: {0.1, 0.01, 0.5} with probabilities {0.4, 0.3, 0.3} respectively, separately for each learner thread;
-   - **1 Frame** means 4 actual game frames, since skipped frames doesn't count; frames are counted across all threads;
-   - **1 Epoch:** 4kk frames (used as convention in paper);
-   - **Total iterations:** 80kk frames (or 20 epochs);
-   - **Exploration annealing period:** first 4kk frames (or 1 epoch);
-   - **Target network update interval:** every 40k frames;
+  - **1 Frame** means 4 actual game frames, since skipped frames doesn't count; frames are counted across all threads;
+  - **1 Epoch:** 4kk frames (used as convention in paper);
+  - **Total iterations:** 80kk frames (or 20 epochs);
+  - **Exploration annealing period:** first 4kk frames (or 1 epoch);
+  - **Target network update interval:** every 40k frames;
 
 
 Information about proposed in this paper value-based asynchronous methods can be found in my [blog post](https://dbobrenko.github.io/2016/11/03/async-deeprl.html). However, to get a full picture of their idea, I recommend you to read the original paper.

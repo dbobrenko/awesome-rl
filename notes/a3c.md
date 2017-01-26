@@ -18,7 +18,7 @@ Yet another awesome work by Google DeepMind's team. Proposed A3C framework succe
   - **Optimizer**: RMSProp with shared statistics across threads with decay factor 0.99;  
   - **Learning rate** sampled uniformly from [1e-2; 1e-4];  
   - **Network**: Deep Q-Network architecture;  
-  - **Action repeat** = 4 (it means to choose action at every 5th frame, and than repeat it at the next 4 frames);
+  - **Action repeat** = 4;
   - **Discount factor** = 0.99;
   - Network **gradient ascent update performes** every 5 frames (i.e. max batch size = 5; skipped frames doesn't count), or at the   - terminal observation;
   - **Exploration rate** samples for each thread randomly. Starting from 1 and linearly annealing to some random variable, sampled from distribution of [0.1, 0.01, 0.5] with probabilites {0.4, 0.3, 0.3} respectively.

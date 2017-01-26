@@ -24,4 +24,4 @@ Yet another awesome work by Google DeepMind's team. Proposed A3C framework succe
   - **Exploration rate** samples for each thread randomly. Starting from 1 and linearly annealing to some random variable, sampled from distribution of [0.1, 0.01, 0.5] with probabilites {0.4, 0.3, 0.3} respectively.
 
 
-Information about proposed in this paper value-based asynchronous methods you may find in by [blog post](https://dbobrenko.github.io/2016/11/03/async-deeprl.html). However, to get a full picture of their idea, I recommend you to read the original paper.
+Information about proposed in this paper value-based asynchronous methods can be found in my [blog post](https://dbobrenko.github.io/2016/11/03/async-deeprl.html). However, to get a full picture of their idea, I recommend you to read the original paper.

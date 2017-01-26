@@ -10,4 +10,4 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   
 :rocket: **A3C: Asynchronous Methods for Deep Reinforcement Learning**
   - [[arXiv, pdf]](https://arxiv.org/pdf/1602.01783v2.pdf)
-  - [Notes](./notes/a3c.md)
+  - [Notes](./notes/a3c.md)

@@ -15,16 +15,16 @@ Yet another awesome work by Google DeepMind's team. Proposed A3C framework succe
   
   
 ##Experimental Setup
-  - **Optimizer**: RMSProp with shared statistics across threads with decay factor 0.99;  
-  - **Learning rate** sampled uniformly from [1e-2; 1e-4];  
-  - **Network**: Deep Q-Network architecture;  
-  - **Action repeat:** 4;
-  - **Discount factor:** 0.99;
-  - **Gradient ascent update** every 5 frames or at the terminal observation (i.e. max batch size = 5; skipped frames doesn't count);
-  - **Exploration rate** starts from 1.0 and linearly anneals to epsilon_min variable, where epsilson_min is sampled from distribution  taken three values: {0.1, 0.01, 0.5} with probabilities {0.4, 0.3, 0.3} respectively, separately for each learner thread;
   - **1 Frame** means 4 actual game frames, since skipped frames doesn't count; frames are counted across all threads;
   - **1 Epoch:** 4kk frames (used as convention in paper);
   - **Total iterations:** 80kk frames (or 20 epochs);
+  - **Optimizer**: RMSProp with shared statistics across threads with decay factor 0.99;  
+  - **Learning rate** ranges in [1e-2; 1e-4] interval;  
+  - **Network**: Deep Q-Network architecture;  
+  - **Action repeat:** 4;
+  - **Discount factor:** 0.99;
+  - **Gradient ascent update** every 5 frames or at the terminal observation (i.e. max batch size = 5);
+  - **Exploration rate** starts from 1.0 and linearly anneals to epsilon_min variable, where epsilson_min is sampled from distribution  taken three values: {0.1, 0.01, 0.5} with probabilities {0.4, 0.3, 0.3} respectively, separately for each learner thread;
   - **Exploration annealing period:** first 4kk frames (or 1 epoch);
   - **Target network update interval:** every 40k frames;
 

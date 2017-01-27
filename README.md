@@ -14,7 +14,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Google DeepMind
   - Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Tim Harley, Timothy P. Lillicrap, David Silver, Koray Kavukcuoglu
   - [[arXiv, pdf]](https://arxiv.org/pdf/1602.01783v2.pdf)
-  - :pencil: [**Notes**](./notes/a3c.md)
+  - :pencil: [**Notes**](./notes/a3c_agent.md)
 
 
 ## Year 2015

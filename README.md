@@ -17,7 +17,6 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - :pencil: [**Notes**](./notes/a3c-agent.md)
 
 
-## Year 2015
 **Prioritized Experience Replay**
   - Google DeepMind
   - Tom Schaul, John Quan, Ioannis Antonoglou, David Silver

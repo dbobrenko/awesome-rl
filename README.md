@@ -4,7 +4,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 ## Year 2017
 :rocket: **Neural Episodic Control**
   - Google DeepMind
-  - Alexander Sasha Vezhnevetss, Simon Osindero, Tom Schaul, Nicolas Heess, Max Jaderberg, David Silver, Koray Kavukcuoglu
+  - Alexander Pritzel, Benigno Uria, Sriram Srinivasan, Adria Puigdom, Oriol Vinyals, Demis Hassabis, Daan Wierstra, Charles Blundell
   - [[arXiv](https://arxiv.org/abs/1703.01988v1)], [[pdf](https://arxiv.org/pdf/1703.01988v1.pdf)]
   - :pencil: [**Notes**](./notes/nec-agent.md)
 

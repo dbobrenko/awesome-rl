@@ -25,12 +25,12 @@ Differentiable Neural Dictionary:
   * Convolutional feature map is shares among each separate DND.
 
 When it's time for agent to decide what action to take:
-1. ConvNet produces key `h` from current observation;
-2. The key `h` is then used to lookup for the nearest state-action value `Q` from DND;
-3. Take an action, using epsilon-greedy policy, based on recieved state-action value;
-4. Append new key-value pair to the DND;
-5. When the exact same key already exists in DND, the state-action value Q is updated the same way as the calssic tabular Q-learning algorithm: `Q <- Q + alpha*(Q_new - Q)`;
-6. When memory's maximum capacity exceeds, they overwrite current `h` key as a nearest neighbour key in the kd-tree.
+  1. ConvNet produces key `h` from current observation;
+  2. The key `h` is then used to lookup for the nearest state-action value `Q` from DND;
+  3. Take an action, using epsilon-greedy policy, based on recieved state-action value;
+  4. Append new key-value pair to the DND;
+  5. When the exact same key already exists in DND, the state-action value Q is updated the same way as the calssic tabular Q-learning algorithm: `Q <- Q + alpha*(Q_new - Q)`;
+  6. When memory's maximum capacity exceeds, they overwrite current `h` key as a nearest neighbour key in the kd-tree.
 
 ##Experimental Setup
   * No need in reward clipping!

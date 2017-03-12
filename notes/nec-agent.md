@@ -17,8 +17,7 @@ Neural Episodic Control (NEC): a deep reinforcement learning agent that is able 
 Agent consists of three components: 
   * Convolutional neural network (DQN architecture) that processes pixel images `s`;
   * A set of DND memory modules (one per action);
-  * Final network that converts read-outs from the action memories into `Q(s, a)` values;
-  * NEC is trained on uniformly sampled batches from experience replay;
+  * Final network that converts read-outs from the action memories into `Q(s, a)` values.
 
 Differentiable Neural Dictionary:
   * For each action the action space NEC has a memory module kd-tree, called Differentiable Neural Dictionary (DND). It has two operation available: write and lookup;
@@ -35,6 +34,7 @@ When it's time for agent to decide what action to take:
 ##Experimental Setup
   * No need in reward clipping!
   * Same preprocessing as in Nature DQN, Mnih et al., 2015;
+  * NEC is trained on uniformly sampled batches from experience replay;
   * Replay buffer size: 100k
   * DND memory size from each action: 100k key-value pairs
   * Discount factor gamma: 0.99;

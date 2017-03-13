@@ -2,14 +2,15 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
-:rocket: **Neural Episodic Control**
+**Neural Episodic Control**
   - Google DeepMind
   - Alexander Pritzel, Benigno Uria, Sriram Srinivasan, Adria Puigdom, Oriol Vinyals, Demis Hassabis, Daan Wierstra, Charles Blundell
   - [[arXiv](https://arxiv.org/abs/1703.01988v1)], [[pdf](https://arxiv.org/pdf/1703.01988v1.pdf)]
   - :pencil: [**Notes**](./notes/nec-agent.md)
+  - **Summary.** Neural Episidic Control (NEC) agent much more data efficient (in small data regime) compared to other state-of-the-art RL agents. DQN with Prioritized Replay can reach NEC performance at 5 millions of frames, only after 40 millions of frames. However, final perfomance in almost all environments is still worse than other state-of-the-art agents can obtain.
 
 ## Year 2016
-:rocket: **UNREAL agent: Reinforcement Learning with unsupervised auxiliary tasks**
+**UNREAL agent: Reinforcement Learning with unsupervised auxiliary tasks**
   - Google DeepMind
   - Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z Leibo, David Silver & Koray Kavukcuoglu
   - [[arXiv](https://arxiv.org/abs/1611.05397)], [[pdf](https://arxiv.org/pdf/1611.05397.pdf)] 

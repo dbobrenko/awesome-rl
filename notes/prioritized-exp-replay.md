@@ -1,16 +1,14 @@
-#Prioritized Experience Replay
+# Prioritized Experience Replay
 
-[[arXiv, pdf]](https://arxiv.org/pdf/1511.05952v4.pdf)  
+[[arXiv]](https://arxiv.org/abs/1511.05952v4), [[pdf]](https://arxiv.org/pdf/1511.05952v4.pdf)   
 Tom Schaul, John Quan, Ioannis Antonoglou and David Silver
-
-**In progress.**
 
 The main idea of this paper is that an RL agent can learn more effectively from some transitions than from others. More precise, they increase data efficiency by training on transitions from replay buffer, that are currently "hard" for agent, more often, than in usual experience replay case. For those, who are familiar with supervised learning, the idea of Prioritized Experience Replay is somewhat similar to the "Online Hard Example Mining" (OHEM).
 
-##Proposed methods of prioritization
+## Proposed methods of prioritization
 **Oracle prioritization.** Greedily select the transition that maximally reduces the global loss in its current state (in hindsight, after the parameter update).  
 
-**Greedy Temporal-Difference (TD) error prioritization.** High TD error indicates how ‘surprising’ or unexpected the transition is for the agent. The main idea is to replay transition with the largest absolute TD error stored in memory. New transitions are stored with the maximal priority, in order to guarantee that all experience is seen at least once. 
+**Greedy Temporal-Difference (TD) error prioritization.** High TD error indicates how ‘surprising’ or unexpected the transition is for the agent. The main idea is to replay transition with the largest absolute TD error stored in memory. New transitions are stored with the maximal priority, in order to guarantee that all experience is seen at least once.  
 Pros & Cons:  
    - **+** Suitable for incremental, online RL algorithms, such as SARSA or Q-learning;
    - **-** Sensitive to noisy (stochastic) rewards;
@@ -22,17 +20,19 @@ Pros & Cons:
 ![stochastic prioritization](/assets/prioritized-exp-replay-stochastic.png),  
 where `p[i] = abs(delta[i]) + epsilon` - TD error of transition *i* + some positive constant, to prevent transitions with zero replay probabilities,  
 `a` - exponent, determines how much prioritization is used.  
-Pros & Cons:  
+
+
+Pros & Cons:
    - **+** Guarantees a non-zero probabilities;
    - **+** Large speed-ups over the uniform-based sampling.
 
-**Rank-based TD prioritization.** The second variant looks as: *p[i] = 1 / rank(i)*. Where rank(i) is the rank of transition *i* when the replay memory is sorted by TD-error
-Pros & Cons:  
+**Rank-based TD prioritization.** The second variant looks as: *p[i] = 1 / rank(i)*. Where rank(i) is the rank of transition *i* when the replay memory is sorted by TD-error.  
+Pros & Cons:
    - **+** Guarantees a non-zero probabilities;
    - **+** Large speed-ups over the uniform-based sampling;
    - **+** Insensitive to outliers.   
 
-##Prioritization Replay Bias
+## Prioritization Replay Bias
 In order to reduce bias introduced by non-uniform sampling to the data distribution, they used **importance-sampling (IS)** weights:
 ```python
 # N - replay buffer size

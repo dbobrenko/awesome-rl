@@ -1,20 +1,20 @@
-#Asynchronous Methods for Deep Reinforcement Learning
-[[arXiv, pdf]](https://arxiv.org/pdf/1602.01783v2.pdf)  
+# Asynchronous Methods for Deep Reinforcement Learning
+[[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]  
 Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Tim Harley, Timothy P. Lillicrap, David Silver, Koray Kavukcuoglu.  
 
 Yet another awesome work by Google DeepMind's team. Proposed A3C framework succeeds both on discrete and continious control problems, as well as at 3D maze navigation task.
 
 
-##Keypoints on A3C method
+## Keypoints on A3C method
   - **Asynchronous** - trained on multi-core CPU, instead of GPU (almost at the same speed);
   - **Actor-Critic** method, trained on-policy;
   - They've used both CNN-LSTM and CNN-FF networks, however CNN-LSTM shows better overall data efficiency and performance;
   - **RMSProp optimizer** with shared statistics across threads;
   - **No experience replay**, cause asynchronous training does the same effect of breaking correlations between frames, as experience replay;
-  - Each thread runs it's own local copy of network's both actor and critic weights (W_local), which updates global shared weigts (W_global) after every 40k frames: W_global <- W_local;
+  - Each thread runs it's own local copy of network's both actor and critic weights (`W_local`), which updates global shared weigts (`W_global`) after every 40k frames: `W_global` <- `W_local`;
   
   
-##Experimental Setup
+## Experimental Setup
   - **1 Frame** means 4 actual game frames, since skipped frames doesn't count; frames are counted across all threads;
   - **1 Epoch:** 4kk frames (used as convention in paper);
   - **Total iterations:** 80kk frames (or 20 epochs);

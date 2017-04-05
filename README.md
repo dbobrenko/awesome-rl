@@ -32,3 +32,4 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 :rocket: **Human-level control through deep reinforcement learning**
   - [[Nature](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)]
   - Mnih et al.; Google Deepmind
+  - :pencil: [**Notes**](./notes/dqn-agent.md)

@@ -13,7 +13,7 @@ Neural Episodic Control (NEC): a deep reinforcement learning agent that is able 
   * Slow reward propagation due to learning on uncorrelated transitions from past experience (off-policy approaches, such as DQN);
   * Slow reward propagation due to slowly updating target network (again, in DQN-like agents).
 
-## Keypoints
+## Key points
 Agent consists of three components: 
   * Convolutional neural network (DQN architecture) that processes pixel images `s`;
   * A set of DND memory modules (one per action);
@@ -26,10 +26,10 @@ Differentiable Neural Dictionary:
 When it's time for agent to decide what action to take:
   1. ConvNet produces key `h` from current observation;
   2. The key `h` is then used to lookup for the nearest state-action value `Q` from DND;
-  3. Take an action, using epsilon-greedy policy, based on recieved state-action value;
+  3. Take an action, using epsilon-greedy policy, based on received state-action value;
   4. Append new key-value pair to the DND;
-  5. When the exact same key already exists in DND, the state-action value Q is updated the same way as the calssic tabular Q-learning algorithm: `Q <- Q + alpha*(Q_new - Q)`;
-  6. When memory's maximum capacity exceeds, they overwrite current `h` key as a nearest neighbour key in the kd-tree.
+  5. When the exact same key already exists in DND, the state-action value Q is updated the same way as the classic tabular Q-learning algorithm: `Q <- Q + alpha*(Q_new - Q)`;
+  6. When memory's maximum capacity exceeds, they overwrite current `h` key as a nearest neighbor key in the kd-tree.
 
 ## Experimental Setup
   * No need in reward clipping!
@@ -40,7 +40,7 @@ When it's time for agent to decide what action to take:
   * Discount factor gamma: 0.99;
   * Replay update every 16 observed frames;
   * Minibatch size: 32;
-  * KD-Tree number of nearest neighbours `p`: 50;
-  * KD-Tree kernel function: `k(h, h_i) = 1 / (L2(h - h_i) + 0.001)`, where L2 - L2 euclidian distance `||.||^2`;
+  * KD-Tree number of nearest neighbors `p`: 50;
+  * KD-Tree kernel function: `k(h, h_i) = 1 / (L2(h - h_i) + 0.001)`, where L2 - L2 euclidean distance `||.||^2`;
 
   

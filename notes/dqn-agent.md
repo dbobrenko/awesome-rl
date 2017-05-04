@@ -4,17 +4,18 @@ Preceding work: [[arXiv, 2013](https://arxiv.org/abs/1312.5602)], [[pdf](https:/
 Current work: [[Nature, 2015](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)]
 
 
-One of the most valuable paper in deep reinforcement learning field. Previously, it was used to be thought, that Q-Learning cannot guarantee a stable convergence with non-linear function approximator. Google DeepMind team shown, that Q-Learning **can** stabilize convergence with deep neural networks, however, it requires a few tricks:
+One of the most valuable paper in deep reinforcement learning field. Previously, it was used to be thought, that Q-Learning cannot guarantee a stable convergence with non-linear function approximator. Google DeepMind team have shown, that Q-Learning **can** stabilize convergence with deep neural networks, however, it requires a few tricks:
   1. Experience replay. The main idea is to break temporal correlations between consecutive updates;
   2. Off-policy learning with experience replay.
   
 ## Key points
-  - Model-free: it solves the RL task using samples from environment, without explicit model reconstruction;
-  - Off-policy: they used separate target network for predicting TD target; Target network follows greedy strategy, while behavior policy is epsilon-greedy; Learning performed using experience replay buffer;
+  - **Model-free**: it solves the RL task using samples from environment, without explicit model reconstruction;
+  - **Off-policy**: they used separate target network for predicting TD target; Target network follows greedy strategy, while behavior policy is epsilon-greedy; Learning performed using experience replay buffer;
   - The Q-Network learns to predict **expected accumulated discounted reward** `G` for any given state-action pair, so that `max_a Q(s,a; w) = G`; The main idea is to minimize the error between target reward and predicted one;
-  - Clipping positive rewards at 1 and all negative rewards at -1, leaving 0 rewards unchanged; Such hack limits error derivatives, and allows to use almost the same learning rate for different environments. However, the obvious limitation, the agent won't be able to differentiate between strong or weak reward signals;
-  - To encode the input frame, they took the max value for each pixel over the current and previous frame (actually previous frame, not the previous "seen frame" after action repeat). Such hack removes flickering from game objects.
-
+  - Clipping positive rewards at 1 and negative rewards at -1, leaving 0 rewards unchanged; Such hack limits error derivatives, and allows to use almost the same learning rate for different environments. However, the obvious limitation, the agent won't be able to differentiate between strong and weak reward signals;
+  - To encode the input frame, they took the max value for each pixel over the current and previous frame (actually previous frame, not the previous "seen frame" after action repeat). Such hack removes flickering from game objects;
+  - Works only with **discrete action spaces**.
+  
 ## Deep Q-Network Architecture (Nature, 2015)
   - Input: 84x84x4 (4 last frames are stacked as channels);
   - Conv2D layer with 32 feature maps, filter 8x8, and stride 4;

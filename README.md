@@ -22,6 +22,14 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]
   - Mnih et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/a3c-agent.md)
+  
+:godmode: **VizDoom 2016 (Full DM) Winner: Learning to act by predicting the future**
+  - [[arXiv](https://arxiv.org/abs/1611.01779)], [[pdf](https://arxiv.org/pdf/1611.01779.pdf)]
+  - Dosovitskiy, Koltun; Intel Labs
+  
+:godmode: **VizDoom 2016 (Limited DM) 2nd place: Playing FPS Games with Deep Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/abs/1609.05521)], [[pdf](https://arxiv.org/pdf/1609.05521.pdf)]
+  - Lample, Chaplot; Carnegie Mellon University
 
 ## Year 2015
 **Prioritized Experience Replay**
@@ -33,3 +41,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[Nature](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)]
   - Mnih et al.; Google Deepmind
   - :pencil: [**Notes**](./notes/dqn-agent.md)
+ 
+:star: **Mastering the game of Go with deep neural networks and tree search**
+  - [[Nature](https://www.nature.com/nature/journal/v529/n7587/full/nature16961.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/42ytdx/pdf_mastering_the_game_of_go_with_deep_neural/)]
+  - Silver et al.; Google Deepmind, Google

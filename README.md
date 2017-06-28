@@ -2,6 +2,11 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Hybrid Reward Architecture for Reinforcement Learning**
+  - [[arxiv](https://arxiv.org/abs/1706.04208v1)], [[pdf](https://arxiv.org/pdf/1706.04208v1.pdf)]
+  - van Seijen et al.; Microsoft Maluuba, McGill University
+
+
 **Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
   - [[arxiv](https://arxiv.org/abs/1703.03864v1)], [[pdf](https://arxiv.org/pdf/1703.03864v1.pdf)]
   - Tim Salimans et al.; OpenAI

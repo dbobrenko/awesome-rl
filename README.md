@@ -2,6 +2,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Programmable Agents**
+  - [[arxiv](https://arxiv.org/abs/1706.06383v1)], [[pdf](https://arxiv.org/pdf/1706.06383v1.pdf)]
+  - Denil et al.; Google DeepMind
+
 **Hybrid Reward Architecture for Reinforcement Learning**
   - [[arxiv](https://arxiv.org/abs/1706.04208v1)], [[pdf](https://arxiv.org/pdf/1706.04208v1.pdf)]
   - van Seijen et al.; Microsoft Maluuba, McGill University
@@ -35,6 +39,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 :godmode: **VizDoom 2016 (Limited DM) 2nd place: Playing FPS Games with Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1609.05521)], [[pdf](https://arxiv.org/pdf/1609.05521.pdf)]
   - Lample, Chaplot; Carnegie Mellon University
+
+**The Predictron: End-To-End Learning and Planning**
+  - [[arXiv](https://arxiv.org/abs/1612.08810v2)], [[pdf](https://arxiv.org/pdf/1612.08810v2.pdf)]
+  - Silver et al.; Google DeepMind
 
 ## Year 2015
 **Prioritized Experience Replay**

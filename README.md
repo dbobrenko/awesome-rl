@@ -13,7 +13,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 **Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
   - [[arxiv](https://arxiv.org/abs/1703.03864v1)], [[pdf](https://arxiv.org/pdf/1703.03864v1.pdf)]
-  - Tim Salimans et al.; OpenAI
+  - Salimans et al.; OpenAI
 
 **Neural Episodic Control**
   - [[arXiv](https://arxiv.org/abs/1703.01988v1)], [[pdf](https://arxiv.org/pdf/1703.01988v1.pdf)]
@@ -58,3 +58,9 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 :star: **Mastering the game of Go with deep neural networks and tree search**
   - [[Nature](https://www.nature.com/nature/journal/v529/n7587/full/nature16961.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/42ytdx/pdf_mastering_the_game_of_go_with_deep_neural/)]
   - Silver et al.; Google Deepmind, Google
+
+
+## 2012 and earlier
+**Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction**
+  - [[pdf](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)]
+  - Sutton et al.;  University of Alberta, McGill University

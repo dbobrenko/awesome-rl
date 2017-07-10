@@ -2,6 +2,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Emergence of Locomotion Behaviours in Rich Environments**
+  - [[arxiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)]
+  - Heess et al,; Google DeepMind
+
 [RTS:SC] **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
   - [[arxiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1703.10069.pdf)]
   - Peng et al.; Alibaba Group, University College London
@@ -30,12 +34,12 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1609.02993.pdf)]
   - Usunier et al.; Facebook AI Research
 
-UNREAL agent: **Reinforcement Learning with unsupervised auxiliary tasks**
+[UNREAL Agent] **Reinforcement Learning with unsupervised auxiliary tasks**
   - [[arXiv](https://arxiv.org/abs/1611.05397)], [[pdf](https://arxiv.org/pdf/1611.05397.pdf)]
   - Jaderberg et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/unreal-agent.md)
   
-:rocket: A3C agent: **Asynchronous Methods for Deep Reinforcement Learning**
+:rocket: [A3C Agent] **Asynchronous Methods for Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]
   - Mnih et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/a3c-agent.md)

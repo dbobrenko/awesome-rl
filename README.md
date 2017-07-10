@@ -2,6 +2,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+[RTS:SC] **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
+  - [[arxiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1703.10069.pdf)]
+  - Peng et al.; Alibaba Group, University College London
+
 **Programmable Agents**
   - [[arxiv](https://arxiv.org/abs/1706.06383v1)], [[pdf](https://arxiv.org/pdf/1706.06383v1.pdf)]
   - Denil et al.; Google DeepMind
@@ -22,21 +26,25 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - **Brief Summary.** Neural Episidic Control (NEC) agent is extremely data efficient. NEC performance at 5 millions of frames can be reached by DQN with Prior. Replay only after 40 millions of frames. However, the final perfomance is still worse than the other state-of-the-art agents can obtain.
 
 ## Year 2016
-**UNREAL agent: Reinforcement Learning with unsupervised auxiliary tasks**
+[RTS:SC] **Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks**
+  - [[arXiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1609.02993.pdf)]
+  - Usunier et al.; Facebook AI Research
+
+UNREAL agent: **Reinforcement Learning with unsupervised auxiliary tasks**
   - [[arXiv](https://arxiv.org/abs/1611.05397)], [[pdf](https://arxiv.org/pdf/1611.05397.pdf)]
   - Jaderberg et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/unreal-agent.md)
   
-:rocket: **A3C agent: Asynchronous Methods for Deep Reinforcement Learning**
+:rocket: A3C agent: **Asynchronous Methods for Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]
   - Mnih et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/a3c-agent.md)
   
-:godmode: **VizDoom 2016 (Full DM) Winner: Learning to act by predicting the future**
+[FPS::godmode:] **VizDoom 2016 (Full DM) Winner: Learning to act by predicting the future**
   - [[arXiv](https://arxiv.org/abs/1611.01779)], [[pdf](https://arxiv.org/pdf/1611.01779.pdf)]
   - Dosovitskiy, Koltun; Intel Labs
   
-:godmode: **VizDoom 2016 (Limited DM) 2nd place: Playing FPS Games with Deep Reinforcement Learning**
+[FPS::godmode:] **VizDoom 2016 (Limited DM) 2nd place: Playing FPS Games with Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1609.05521)], [[pdf](https://arxiv.org/pdf/1609.05521.pdf)]
   - Lample, Chaplot; Carnegie Mellon University
 

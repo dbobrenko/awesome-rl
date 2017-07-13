@@ -85,3 +85,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 **Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction**
   - [[pdf](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)]
   - Sutton et al. (2011);  University of Alberta, McGill University
+  
+:star: [REINFORCE] **Simple Statistical Gradient-Following Algorithms for. Connectionist Reinforcement Learning**
+  - [[pdf](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)]
+  - Ronald J. Williams (1992); Northeastern University

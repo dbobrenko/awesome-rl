@@ -3,24 +3,24 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 # Deep Reinforcement Learning
 ## Year 2017
 **Emergence of Locomotion Behaviours in Rich Environments**
-  - [[arxiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)]
+  - [[arXiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)]
   - Heess et al,; Google DeepMind
 
 [RTS:SC] **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
-  - [[arxiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1703.10069.pdf)]
+  - [[arXiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1703.10069.pdf)]
   - Peng et al.; Alibaba Group, University College London
 
 **Programmable Agents**
-  - [[arxiv](https://arxiv.org/abs/1706.06383v1)], [[pdf](https://arxiv.org/pdf/1706.06383v1.pdf)]
+  - [[arXiv](https://arxiv.org/abs/1706.06383v1)], [[pdf](https://arxiv.org/pdf/1706.06383v1.pdf)]
   - Denil et al.; Google DeepMind
 
 **Hybrid Reward Architecture for Reinforcement Learning**
-  - [[arxiv](https://arxiv.org/abs/1706.04208v1)], [[pdf](https://arxiv.org/pdf/1706.04208v1.pdf)]
+  - [[arXiv](https://arxiv.org/abs/1706.04208v1)], [[pdf](https://arxiv.org/pdf/1706.04208v1.pdf)]
   - van Seijen et al.; Microsoft Maluuba, McGill University
 
 
 **Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
-  - [[arxiv](https://arxiv.org/abs/1703.03864v1)], [[pdf](https://arxiv.org/pdf/1703.03864v1.pdf)]
+  - [[arXiv](https://arxiv.org/abs/1703.03864v1)], [[pdf](https://arxiv.org/pdf/1703.03864v1.pdf)]
   - Salimans et al.; OpenAI
 
 **Neural Episodic Control**
@@ -57,17 +57,26 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Silver et al.; Google DeepMind
 
 ## Year 2015
+:star: **Dueling Network Architectures for Deep Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/abs/1511.06581)], [[pdf](https://arxiv.org/pdf/1511.06581.pdf)]
+  - Wang et al.; Google DeepMind
+
+:star: **Deep Reinforcement Learning with Double Q-learning**
+  - [[arXiv](https://arxiv.org/abs/1509.06461)], [[pdf](https://arxiv.org/pdf/1509.06461.pdf)]
+  - Hasselt et al.; Google DeepMind
+
 **Prioritized Experience Replay**
   - [[arXiv](https://arxiv.org/abs/1511.05952v4)], [[pdf](https://arxiv.org/pdf/1511.05952v4.pdf)]
   - Schaul et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/prioritized-exp-replay.md)
+  
 
 :rocket: **Human-level control through deep reinforcement learning**
   - [[Nature](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)]
   - Mnih et al.; Google Deepmind
   - :pencil: [**Notes**](./notes/dqn-agent.md)
  
-:star: **Mastering the game of Go with deep neural networks and tree search**
+**Mastering the game of Go with deep neural networks and tree search**
   - [[Nature](https://www.nature.com/nature/journal/v529/n7587/full/nature16961.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/42ytdx/pdf_mastering_the_game_of_go_with_deep_neural/)]
   - Silver et al.; Google Deepmind, Google
 
@@ -75,4 +84,4 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 ## 2012 and earlier
 **Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction**
   - [[pdf](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)]
-  - Sutton et al.;  University of Alberta, McGill University
+  - Sutton et al. (2011);  University of Alberta, McGill University

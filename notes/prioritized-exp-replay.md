@@ -1,9 +1,9 @@
 # Prioritized Experience Replay
 
-[[arXiv]](https://arxiv.org/abs/1511.05952v4), [[pdf]](https://arxiv.org/pdf/1511.05952v4.pdf)   
+[[arXiv](https://arxiv.org/abs/1511.05952v4)], [[pdf](https://arxiv.org/pdf/1511.05952v4.pdf)]   
 Tom Schaul, John Quan, Ioannis Antonoglou and David Silver
 
-The authors proposed to increase data efficiency by training on transitions from replay buffer, that were "hard" (e.g. resuled in high TD-error) for agent last time it observes them. For those, who are familiar with supervised learning, the idea of Prioritized Experience Replay is somewhat similar to the "Online Hard Example Mining" (OHEM).
+The authors proposed to increase data efficiency by training on transitions from replay buffer, that were "hard" (e.g. resulted in high TD-error) for the agent last time it observes them. For those, who are familiar with supervised learning, the idea of Prioritized Experience Replay is somewhat similar to the "Online Hard Example Mining" (OHEM).
 
 ## Proposed methods of prioritization
 **Oracle prioritization.** Greedily select the transition that maximally reduces the global loss in its current state (in hindsight, after the parameter update).  

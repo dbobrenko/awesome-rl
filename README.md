@@ -7,7 +7,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Teh et al.; Google DeepMind
 
 **Emergence of Locomotion Behaviours in Rich Environments**
-  - [[arXiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)]
+  - [[arXiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)], [[official blog post](https://deepmind.com/blog/producing-flexible-behaviours-simulated-environments/)]
   - Heess et al.; Google DeepMind
 
 [RTS:SC] **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**

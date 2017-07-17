@@ -2,9 +2,13 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Distral: Robust Multitask Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/abs/1707.04175)], [[pdf](https://arxiv.org/pdf/1707.04175.pdf)]
+  - Teh et al.; Google DeepMind
+
 **Emergence of Locomotion Behaviours in Rich Environments**
   - [[arXiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)]
-  - Heess et al,; Google DeepMind
+  - Heess et al.; Google DeepMind
 
 [RTS:SC] **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
   - [[arXiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1703.10069.pdf)]

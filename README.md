@@ -2,6 +2,14 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Learning model-based planning from scratch**
+  - [[arXiv](https://arxiv.org/abs/1707.06170)], [[pdf](https://arxiv.org/pdf/1707.06170.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
+  - Pascanu et al.; Google DeepMind
+  
+**Imagination-Augmented Agents for Deep Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/abs/1707.06203)], [[pdf](https://arxiv.org/pdf/1707.06203.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
+  - Weber et al.; Google DeepMind
+  
 **Distral: Robust Multitask Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1707.04175)], [[pdf](https://arxiv.org/pdf/1707.04175.pdf)]
   - Teh et al.; Google DeepMind

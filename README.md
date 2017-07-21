@@ -2,7 +2,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 **Glossary:**
 
-  - :rocket: - state-of-the-art paper at the moment of publication.
+  - :rocket: - state-of-the-art method at the moment of paper publication.
 
   - :star: - extremely valuable or classic paper.
 
@@ -37,12 +37,11 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1706.06383v1)], [[pdf](https://arxiv.org/pdf/1706.06383v1.pdf)]
   - Denil et al.; Google DeepMind
 
-**Hybrid Reward Architecture for Reinforcement Learning**
+:star: **Hybrid Reward Architecture for Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1706.04208v1)], [[pdf](https://arxiv.org/pdf/1706.04208v1.pdf)]
   - van Seijen et al.; Microsoft Maluuba, McGill University
 
-
-**Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
+:star: **Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1703.03864v1)], [[pdf](https://arxiv.org/pdf/1703.03864v1.pdf)]
   - Salimans et al.; OpenAI
 

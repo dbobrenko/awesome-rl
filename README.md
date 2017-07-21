@@ -1,5 +1,16 @@
 A constantly evolving list of notes and summaries of the Reinforcement Learning papers.
 
+**Glossary:**
+
+  - :rocket: - state-of-the-art paper at the moment of publication.
+
+  - :star: - extremely valuable or classic paper.
+
+  - **RTS** - Real-Time Strategy video game.
+
+  - **FPS** - First-Person Shooter video game.
+
+
 # Deep Reinforcement Learning
 ## Year 2017
 **Learning model-based planning from scratch**
@@ -82,9 +93,8 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Schaul et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/prioritized-exp-replay.md)
   
-
 :rocket: **Human-level control through deep reinforcement learning**
-  - [[Nature](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)]
+  - [[Nature](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/2x4yy1/google_deepmind_nature_paper_humanlevel_control/)]
   - Mnih et al.; Google Deepmind
   - :pencil: [**Notes**](./notes/dqn-agent.md)
  
@@ -92,6 +102,14 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[Nature](https://www.nature.com/nature/journal/v529/n7587/full/nature16961.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/42ytdx/pdf_mastering_the_game_of_go_with_deep_neural/)]
   - Silver et al.; Google Deepmind, Google
 
+## Year 2013
+:rocket: **Playing Atari with Deep Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/abs/1312.5602)], [[pdf](https://arxiv.org/pdf/1312.5602.pdf)]
+  - Mnih et al.; DeepMind Technologies
+
+**Evolving Large-Scale Neural Networks for Vision-Based Reinforcement Learning**
+  - [[pdf](http://people.idsia.ch/~juergen/gecco2013torcs.pdf)]
+  - Koutnik et al.; IDSIA, USI-SUPSI
 
 ## 2012 and earlier
 **Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction**

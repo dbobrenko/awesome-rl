@@ -13,6 +13,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+:rocket: [PPO] **Proximal Policy Optimization Algorithms**
+  - [[arXiv](https://arxiv.org/abs/1707.06347)], [[pdf](https://arxiv.org/pdf/1707.06347.pdf)], [[official blog post](https://blog.openai.com/openai-baselines-ppo/)]
+  - Schulman et al.; OpenAI
+
 **Learning model-based planning from scratch**
   - [[arXiv](https://arxiv.org/abs/1707.06170)], [[pdf](https://arxiv.org/pdf/1707.06170.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
   - Pascanu et al.; Google DeepMind
@@ -79,6 +83,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Silver et al.; Google DeepMind
 
 ## Year 2015
+:star: [TRPO] **Trust Region Policy Optimization**
+  - [[arXiv](https://arxiv.org/abs/1502.05477)], [[pdf](https://arxiv.org/pdf/1502.05477.pdf)]
+  - Schulman et al.; UC Berkeley
+
 :star: **Dueling Network Architectures for Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1511.06581)], [[pdf](https://arxiv.org/pdf/1511.06581.pdf)]
   - Wang et al.; Google DeepMind

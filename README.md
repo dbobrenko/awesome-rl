@@ -13,6 +13,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Parameter Space Noise for Exploration**
+  - [[arXiv](https://arxiv.org/abs/1706.01905)], [[pdf](https://arxiv.org/pdf/1706.01905)]
+  - Plappert et al.; OpenAI, Karlsruhe Institute of Technology
+  
 :rocket: [PPO] **Proximal Policy Optimization Algorithms**
   - [[arXiv](https://arxiv.org/abs/1707.06347)], [[pdf](https://arxiv.org/pdf/1707.06347.pdf)], [[official blog post](https://blog.openai.com/openai-baselines-ppo/)]
   - Schulman et al.; OpenAI

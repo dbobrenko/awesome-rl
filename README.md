@@ -17,9 +17,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[pdf](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)]
   - Bello et al.; Google Brain
 
-[ACKTR, A2C] **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation**
+:rocket: [ACKTR, A2C] **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation**
   - [[arXiv](https://arxiv.org/abs/1708.05144)], [[pdf](https://arxiv.org/pdf/1708.05144.pdf)]
   - Wu et al.; University of Toronto, New York University
+
 **Parameter Space Noise for Exploration**
   - [[arXiv](https://arxiv.org/abs/1706.01905)], [[pdf](https://arxiv.org/pdf/1706.01905)]
   - Plappert et al.; OpenAI, Karlsruhe Institute of Technology

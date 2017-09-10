@@ -13,6 +13,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**A Deep Reinforcement Learning Chatbot**
+  - [[arXiv](https://arxiv.org/abs/1709.02349)], [[pdf](https://arxiv.org/pdf/1709.02349.pdf)]
+  - Serban et al.; Montreal Institute for Learning Algorithms
+
 **Neural Optimizer Search with Reinforcement Learning**
   - [[pdf](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)]
   - Bello et al.; Google Brain

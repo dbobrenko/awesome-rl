@@ -4,7 +4,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
   - :rocket: - state-of-the-art method at the moment of paper publication.
 
-  - :star: - extremely valuable or classic paper.
+  - :star: - valuable paper.
 
   - **RTS** - Real-Time Strategy video game.
 
@@ -13,6 +13,14 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Learning with Opponent-Learning Awareness**
+  - [[arXiv](https://arxiv.org/abs/1709.04326)], [[pdf](https://arxiv.org/pdf/1709.04326.pdf)], [[official blog post](https://blog.openai.com/learning-to-model-other-minds/)]
+  - Foerster et al.; OpenAI, University of Oxford, UC Berkeley, Carnegie Mellon University
+
+**One-Shot Visual Imitation Learning via Meta-Learning**
+  - [[arXiv](https://arxiv.org/abs/1709.04905)], [[pdf](https://arxiv.org/pdf/1709.04905.pdf)]
+  - Finn et al.; UC Berkeley, OpenAI
+
 **A Deep Reinforcement Learning Chatbot**
   - [[arXiv](https://arxiv.org/abs/1709.02349)], [[pdf](https://arxiv.org/pdf/1709.02349.pdf)]
   - Serban et al.; Montreal Institute for Learning Algorithms

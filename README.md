@@ -150,3 +150,8 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 :star: [REINFORCE] **Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning**
   - [[pdf](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)]
   - Ronald J. Williams (1992); Northeastern University
+  
+## Miscellaneous
+**How to Read a Paper**
+  - [[pdf](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)]
+  - S. Keshav (2007); University of Waterloo

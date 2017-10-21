@@ -13,6 +13,14 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Asymmetric Actor Critic for Image-Based Robot Learning**
+  - [[arXiv](https://arxiv.org/abs/1710.06542)], [[pdf](https://arxiv.org/pdf/1710.06542.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
+  - Lerrel Pinto, Marcin Andrychowicz, Peter Welinder, Wojciech Zaremba, Pieter Abbeel; OpenAI, CMU
+
+**Sim-to-Real Transfer of Robotic Control with Dynamics Randomization**
+  - [[arXiv](https://arxiv.org/abs/1710.06537)], [[pdf](https://arxiv.org/pdf/1710.06537.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
+  - Xue Bin Peng, Marcin Andrychowicz, Wojciech Zaremba, Pieter Abbeel; OpenAI, UC Berkeley
+
 **Learning with Opponent-Learning Awareness**
   - [[arXiv](https://arxiv.org/abs/1709.04326)], [[pdf](https://arxiv.org/pdf/1709.04326.pdf)], [[official blog post](https://blog.openai.com/learning-to-model-other-minds/)]
   - Foerster et al.; OpenAI, University of Oxford, UC Berkeley, Carnegie Mellon University
@@ -45,7 +53,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1707.06170)], [[pdf](https://arxiv.org/pdf/1707.06170.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
   - Pascanu et al.; Google DeepMind
   
-**Imagination-Augmented Agents for Deep Reinforcement Learning**
+:star: **Imagination-Augmented Agents for Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1707.06203)], [[pdf](https://arxiv.org/pdf/1707.06203.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
   - Weber et al.; Google DeepMind
   

@@ -13,13 +13,17 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Meta Learning Shared Hierarchies**
+  - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post]()]
+  - Frans et al.; OpenAI, UC Berkeley
+
 **Asymmetric Actor Critic for Image-Based Robot Learning**
   - [[arXiv](https://arxiv.org/abs/1710.06542)], [[pdf](https://arxiv.org/pdf/1710.06542.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
-  - Lerrel Pinto, Marcin Andrychowicz, Peter Welinder, Wojciech Zaremba, Pieter Abbeel; OpenAI, CMU
+  - Pinto et al.; OpenAI, CMU
 
 **Sim-to-Real Transfer of Robotic Control with Dynamics Randomization**
   - [[arXiv](https://arxiv.org/abs/1710.06537)], [[pdf](https://arxiv.org/pdf/1710.06537.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
-  - Xue Bin Peng, Marcin Andrychowicz, Wojciech Zaremba, Pieter Abbeel; OpenAI, UC Berkeley
+  - Peng et al.; OpenAI, UC Berkeley
 
 **Learning with Opponent-Learning Awareness**
   - [[arXiv](https://arxiv.org/abs/1709.04326)], [[pdf](https://arxiv.org/pdf/1709.04326.pdf)], [[official blog post](https://blog.openai.com/learning-to-model-other-minds/)]

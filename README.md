@@ -13,8 +13,8 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
-**Meta Learning Shared Hierarchies**
-  - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post]()]
+:star: **Meta Learning Shared Hierarchies**
+  - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post](https://blog.openai.com/learning-a-hierarchy/)]
   - Frans et al.; OpenAI, UC Berkeley
 
 **Asymmetric Actor Critic for Image-Based Robot Learning**

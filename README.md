@@ -13,6 +13,22 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+:star: **Mastering the Game of Go without Human Knowledge**
+  - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[official blog post](https://deepmind.com/blog/alphago-zero-learning-scratch/)]
+  - Silver et al.; Google Deepmind
+
+:star: **Learning Transferable Architectures for Scalable Image Recognition**
+  - [[arXiv](https://arxiv.org/abs/1707.07012)], [[pdf](https://arxiv.org/pdf/1707.07012.pdf)]
+  - Zoph et al.; Google Brain
+
+**Neural Optimizer Search with Reinforcement Learning**
+  - [[pdf](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)]
+  - Bello et al.; Google Brain
+
+**Neural Architecture Search with Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/abs/1611.01578)], [[pdf](https://arxiv.org/pdf/1611.01578.pdf)]
+  - B. Zoph and Quoc V. Le, 2017; Google Brain; ICLR.
+
 :star: **Meta Learning Shared Hierarchies**
   - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post](https://blog.openai.com/learning-a-hierarchy/)]
   - Frans et al.; OpenAI, UC Berkeley
@@ -162,6 +178,10 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 :star: [REINFORCE] **Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning**
   - [[pdf](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)]
   - Ronald J. Williams (1992); Northeastern University
+
+:star: **Temporal Difference Learning and TD-Gammon**
+  - [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]
+  - Gerald Tesauro (1995)
   
 ## Miscellaneous
 **How to Read a Paper**

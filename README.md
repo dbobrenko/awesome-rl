@@ -182,6 +182,11 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 :star: **Temporal Difference Learning and TD-Gammon**
   - [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]
   - Gerald Tesauro (1995)
+
+## Books
+**Reinforcement Learning: An Introduction** (Complete Draft)
+  - [[pdf](http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf)]
+  - Richard S. Sutton and Andrew G. Barto (2017)
   
 ## Miscellaneous
 **How to Read a Paper**

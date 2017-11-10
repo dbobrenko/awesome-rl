@@ -29,9 +29,9 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   
   - ![robot] - Real Robot Experiments (Robot).
   
-  - ![go] - Go game.
+  - ![go] - Go game (Go).
   
-  - ![table] - Table games.
+  - ![table] - Table games (Table).
   
   - ![loco] - Simulated robotic locomotion: MuJoCo, Roboschool etc (Locomotion).
   

@@ -27,7 +27,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 **Neural Architecture Search with Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1611.01578)], [[pdf](https://arxiv.org/pdf/1611.01578.pdf)]
-  - B. Zoph and Quoc V. Le, 2017; Google Brain; ICLR.
+  - B. Zoph and Quoc V. Le; Google Brain; ICLR.
 
 :star: **Meta Learning Shared Hierarchies**
   - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post](https://blog.openai.com/learning-a-hierarchy/)]
@@ -104,8 +104,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 **Neural Episodic Control**
   - [[arXiv](https://arxiv.org/abs/1703.01988v1)], [[pdf](https://arxiv.org/pdf/1703.01988v1.pdf)]
   - Pritzel et al.; Google DeepMind
-  - :pencil: [**Notes**](./notes/nec-agent.md)
-  - **Brief Summary.** Neural Episidic Control (NEC) agent is extremely data efficient. NEC performance at 5 millions of frames can be reached by DQN with Prior. Replay only after 40 millions of frames. However, the final perfomance is still worse than the other state-of-the-art agents can obtain.
+  - **Brief Summary.** NEC agent is extremely data efficient. It's performance at 5 millions of frames can be reached by DQN with Prior. Replay only after 40 millions of frames. However, the final perfomance is still worse than the other state-of-the-art agents can obtain.
 
 ## Year 2016
 [RTS:SC] **Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks**

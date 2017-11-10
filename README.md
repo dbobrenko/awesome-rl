@@ -99,7 +99,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 **A Deep Reinforcement Learning Chatbot**
   - [[arXiv](https://arxiv.org/abs/1709.02349)], [[pdf](https://arxiv.org/pdf/1709.02349.pdf)]
-  - Serban et al.; Montreal Institute for Learning Algorithms
+  - Serban et al.; MILA
 
 :rocket: **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation** (ACKTR, A2C)
   - [[arXiv](https://arxiv.org/abs/1708.05144)], [[pdf](https://arxiv.org/pdf/1708.05144.pdf)]
@@ -171,13 +171,13 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 **Reinforcement Learning with unsupervised auxiliary tasks** (UNREAL)
   - [[arXiv](https://arxiv.org/abs/1611.05397)], [[pdf](https://arxiv.org/pdf/1611.05397.pdf)]
   - Jaderberg et al.; Google DeepMind
-  - :pencil: [**My Notes**](./notes/unreal-agent.md)
+  - :pencil: [**Notes**](./notes/unreal-agent.md)
   - ![atari] ![maze] ![loco] Atari, Maze, Locomotion, Continious
   
 :rocket: **Asynchronous Methods for Deep Reinforcement Learning** (A3C)
   - [[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]
   - Mnih et al.; Google DeepMind
-  - :pencil: [**My Notes**](./notes/a3c-agent.md)
+  - :pencil: [**Notes**](./notes/a3c-agent.md)
   - ![atari] ![maze] ![loco] Atari, Maze, Locomotion, Continious
   
 :rocket: **VizDoom 2016 (Full DM) Winner: Learning to act by predicting the future**
@@ -188,7 +188,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 **VizDoom 2016 (Limited DM) 2nd place: Playing FPS Games with Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1609.05521)], [[pdf](https://arxiv.org/pdf/1609.05521.pdf)]
   - Lample, Chaplot; Carnegie Mellon University
-  - ![doom] ![loco] Doom, Maze, FPS
+  - ![doom] ![maze] Doom, Maze, FPS
 
 **The Predictron: End-To-End Learning and Planning**
   - [[arXiv](https://arxiv.org/abs/1612.08810v2)], [[pdf](https://arxiv.org/pdf/1612.08810v2.pdf)]

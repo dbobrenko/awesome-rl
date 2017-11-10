@@ -175,16 +175,16 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[pdf](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)]
   - Sutton et al. (2011);  University of Alberta, McGill University
   
+:star: **Temporal Difference Learning and TD-Gammon**
+  - [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]
+  - Gerald Tesauro (1995)
+  
 :star: [REINFORCE] **Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning**
   - [[pdf](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)]
   - Ronald J. Williams (1992); Northeastern University
 
-:star: **Temporal Difference Learning and TD-Gammon**
-  - [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]
-  - Gerald Tesauro (1995)
-
 ## Books
-**Reinforcement Learning: An Introduction** (Complete Draft)
+:star: **Reinforcement Learning: An Introduction** (Complete Draft)
   - [[pdf](http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf)]
   - Richard S. Sutton and Andrew G. Barto (2017)
   

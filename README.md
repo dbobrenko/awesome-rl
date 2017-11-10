@@ -13,7 +13,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
-:star: **Mastering the Game of Go without Human Knowledge**
+:star: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
   - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[official blog post](https://deepmind.com/blog/alphago-zero-learning-scratch/)]
   - Silver et al.; Google Deepmind
 
@@ -41,7 +41,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1710.06537)], [[pdf](https://arxiv.org/pdf/1710.06537.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
   - Peng et al.; OpenAI, UC Berkeley
 
-**Learning with Opponent-Learning Awareness**
+:star: **Learning with Opponent-Learning Awareness** (LOLA)
   - [[arXiv](https://arxiv.org/abs/1709.04326)], [[pdf](https://arxiv.org/pdf/1709.04326.pdf)], [[official blog post](https://blog.openai.com/learning-to-model-other-minds/)]
   - Foerster et al.; OpenAI, University of Oxford, UC Berkeley, Carnegie Mellon University
 
@@ -57,7 +57,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[pdf](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)]
   - Bello et al.; Google Brain
 
-:rocket: [ACKTR, A2C] **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation**
+:rocket: **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation** (ACKTR, A2C)
   - [[arXiv](https://arxiv.org/abs/1708.05144)], [[pdf](https://arxiv.org/pdf/1708.05144.pdf)]
   - Wu et al.; University of Toronto, New York University
 
@@ -65,7 +65,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1706.01905)], [[pdf](https://arxiv.org/pdf/1706.01905)]
   - Plappert et al.; OpenAI, Karlsruhe Institute of Technology
   
-:rocket: [PPO] **Proximal Policy Optimization Algorithms**
+:rocket: **Proximal Policy Optimization Algorithms** (PPO)
   - [[arXiv](https://arxiv.org/abs/1707.06347)], [[pdf](https://arxiv.org/pdf/1707.06347.pdf)], [[official blog post](https://blog.openai.com/openai-baselines-ppo/)]
   - Schulman et al.; OpenAI
 
@@ -111,12 +111,12 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1609.02993.pdf)]
   - Usunier et al.; Facebook AI Research
 
-[UNREAL Agent] **Reinforcement Learning with unsupervised auxiliary tasks**
+**Reinforcement Learning with unsupervised auxiliary tasks** (UNREAL)
   - [[arXiv](https://arxiv.org/abs/1611.05397)], [[pdf](https://arxiv.org/pdf/1611.05397.pdf)]
   - Jaderberg et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/unreal-agent.md)
   
-:rocket: [A3C Agent] **Asynchronous Methods for Deep Reinforcement Learning**
+:rocket: **Asynchronous Methods for Deep Reinforcement Learning** (A3C)
   - [[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]
   - Mnih et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/a3c-agent.md)
@@ -134,15 +134,15 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Silver et al.; Google DeepMind
 
 ## Year 2015
-:star: [TRPO] **Trust Region Policy Optimization**
+:star: **Trust Region Policy Optimization** (TRPO)
   - [[arXiv](https://arxiv.org/abs/1502.05477)], [[pdf](https://arxiv.org/pdf/1502.05477.pdf)]
   - Schulman et al.; UC Berkeley
 
-:star: **Dueling Network Architectures for Deep Reinforcement Learning**
+:star: **Dueling Network Architectures for Deep Reinforcement Learning** (Dueling DQN)
   - [[arXiv](https://arxiv.org/abs/1511.06581)], [[pdf](https://arxiv.org/pdf/1511.06581.pdf)]
   - Wang et al.; Google DeepMind
 
-:star: **Deep Reinforcement Learning with Double Q-learning**
+:star: **Deep Reinforcement Learning with Double Q-learning** (Double DQN)
   - [[arXiv](https://arxiv.org/abs/1509.06461)], [[pdf](https://arxiv.org/pdf/1509.06461.pdf)]
   - Hasselt et al.; Google DeepMind
 
@@ -151,7 +151,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Schaul et al.; Google DeepMind
   - :pencil: [**Notes**](./notes/prioritized-exp-replay.md)
   
-:rocket: **Human-level control through deep reinforcement learning**
+:rocket: **Human-level control through deep reinforcement learning** (DQN)
   - [[Nature](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/2x4yy1/google_deepmind_nature_paper_humanlevel_control/)]
   - Mnih et al.; Google Deepmind
   - :pencil: [**Notes**](./notes/dqn-agent.md)
@@ -161,7 +161,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Silver et al.; Google Deepmind, Google
 
 ## Year 2013
-:rocket: **Playing Atari with Deep Reinforcement Learning**
+:rocket: **Playing Atari with Deep Reinforcement Learning** (DQN)
   - [[arXiv](https://arxiv.org/abs/1312.5602)], [[pdf](https://arxiv.org/pdf/1312.5602.pdf)]
   - Mnih et al.; DeepMind Technologies
 
@@ -178,7 +178,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]
   - Gerald Tesauro (1995)
   
-:star: [REINFORCE] **Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning**
+:star: **Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning** (REINFORCE)
   - [[pdf](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)]
   - Ronald J. Williams (1992); Northeastern University
 

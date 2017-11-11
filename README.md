@@ -180,12 +180,12 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - :pencil: [**Notes**](./notes/a3c-agent.md)
   - ![atari] ![maze] ![loco] Atari, Maze, Locomotion, Continious
   
-:rocket: **VizDoom 2016 (Full DM) Winner: Learning to act by predicting the future**
+:rocket: **Learning to act by predicting the future** (VizDoom 2016 Full DM Winner)
   - [[arXiv](https://arxiv.org/abs/1611.01779)], [[pdf](https://arxiv.org/pdf/1611.01779.pdf)]
   - Dosovitskiy, Koltun; Intel Labs
   - ![doom] ![maze] Doom, Maze, FPS
   
-**VizDoom 2016 (Limited DM) 2nd place: Playing FPS Games with Deep Reinforcement Learning**
+**Playing FPS Games with Deep Reinforcement Learning** (VizDoom 2016 Limited DM 2nd place)
   - [[arXiv](https://arxiv.org/abs/1609.05521)], [[pdf](https://arxiv.org/pdf/1609.05521.pdf)]
   - Lample, Chaplot; Carnegie Mellon University
   - ![doom] ![maze] Doom, Maze, FPS

@@ -52,12 +52,12 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
-:star: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
+:rocket: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
   - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[official blog post](https://deepmind.com/blog/alphago-zero-learning-scratch/)]
   - Silver et al.; Google Deepmind
   - ![go] ![table] Go, Table
 
-:star: **Learning Transferable Architectures for Scalable Image Recognition**
+:rocket: **Learning Transferable Architectures for Scalable Image Recognition**
   - [[arXiv](https://arxiv.org/abs/1707.07012)], [[pdf](https://arxiv.org/pdf/1707.07012.pdf)]
   - Zoph et al.; Google Brain
   - ![nn] NN

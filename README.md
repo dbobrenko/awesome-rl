@@ -23,15 +23,15 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   
   - ![doom] - Doom game (Doom).
   
-  - ![sc] - Starcraft game (SC).
+  - ![sc] - Starcraft game (Starcraft).
   
   - ![nn] - Neural Networks & Optimizers (NN).
-  
-  - ![robot] - Real Robot Experiments (Robot).
   
   - ![go] - Go game (Go).
   
   - ![table] - Table games (Table).
+  
+  - ![robot] - Real-robot applications (Robot).
   
   - ![loco] - Simulated robotic locomotion: MuJoCo, Roboschool etc (Locomotion).
   
@@ -39,11 +39,11 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   
   - **Multi** - Multi-agent learning.
   
-  - **Continious** - Methods that can be applied to continious action space problems.
+  - **Continious** - Methods with continious action space support.
   
   - **Planning** - Complex planning problems.
   
-  - **Transfer** - Transfer Learning.
+  - **Transfer** - Transfer learning.
   
   - **RTS** - Real-Time Strategy video game.
   

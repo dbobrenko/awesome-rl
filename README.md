@@ -52,6 +52,16 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+:rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
+  - [[arXiv](https://arxiv.org/abs/1710.02298)], [[pdf](https://arxiv.org/pdf/1710.02298.pdf)]
+  - Hessel et al.; Google Deepmind
+  - ![atari] Atari
+  
+**RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning** (Meta-Learning)
+  - [[arXiv](https://arxiv.org/abs/1611.02779)], [[pdf](https://arxiv.org/pdf/1611.02779.pdf)]
+  - Duan et al.; Berkeley, OpenAI
+  - ![maze] Maze
+  
 :rocket: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
   - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[official blog post](https://deepmind.com/blog/alphago-zero-learning-scratch/)]
   - Silver et al.; Google Deepmind

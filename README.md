@@ -57,11 +57,21 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - Hessel et al.; Google Deepmind
   - ![atari] Atari
   
-**RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning** (Meta-Learning)
+**RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1611.02779)], [[pdf](https://arxiv.org/pdf/1611.02779.pdf)]
   - Duan et al.; Berkeley, OpenAI
-  - ![maze] Maze
+  - ![maze] Maze, Meta-Learning
+
+:star: **Meta Learning Shared Hierarchies**
+  - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post](https://blog.openai.com/learning-a-hierarchy/)]
+  - Frans et al.; OpenAI, UC Berkeley
+  - ![loco] Locomotion, Continous, Meta-Learning
   
+**One-Shot Visual Imitation Learning via Meta-Learning**
+  - [[arXiv](https://arxiv.org/abs/1709.04905)], [[pdf](https://arxiv.org/pdf/1709.04905.pdf)]
+  - Finn et al.; UC Berkeley, OpenAI
+  - ![robot] Robot, Continious, Meta-Learning
+
 :rocket: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
   - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[official blog post](https://deepmind.com/blog/alphago-zero-learning-scratch/)]
   - Silver et al.; Google Deepmind
@@ -82,11 +92,6 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - B. Zoph and Quoc V. Le; Google Brain; ICLR.
   - ![nn] NN
 
-:star: **Meta Learning Shared Hierarchies**
-  - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post](https://blog.openai.com/learning-a-hierarchy/)]
-  - Frans et al.; OpenAI, UC Berkeley
-  - ![loco] Locomotion, Continous
-
 **Asymmetric Actor Critic for Image-Based Robot Learning**
   - [[arXiv](https://arxiv.org/abs/1710.06542)], [[pdf](https://arxiv.org/pdf/1710.06542.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
   - Pinto et al.; OpenAI, CMU
@@ -101,11 +106,6 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[arXiv](https://arxiv.org/abs/1709.04326)], [[pdf](https://arxiv.org/pdf/1709.04326.pdf)], [[official blog post](https://blog.openai.com/learning-to-model-other-minds/)]
   - Foerster et al.; OpenAI, University of Oxford, UC Berkeley, Carnegie Mellon University
   - Multi
-
-**One-Shot Visual Imitation Learning via Meta-Learning**
-  - [[arXiv](https://arxiv.org/abs/1709.04905)], [[pdf](https://arxiv.org/pdf/1709.04905.pdf)]
-  - Finn et al.; UC Berkeley, OpenAI
-  - ![robot] Robot, Continious
 
 **A Deep Reinforcement Learning Chatbot**
   - [[arXiv](https://arxiv.org/abs/1709.02349)], [[pdf](https://arxiv.org/pdf/1709.02349.pdf)]

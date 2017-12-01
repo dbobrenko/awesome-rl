@@ -52,6 +52,11 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning**
+  - [[arXiv](https://arxiv.org/pdf/1708.02596.pdf)], [[pdf](https://github.com/nagaban2/nn_dynamics)], [[official blog post](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)], [[official code](https://github.com/nagaban2/nn_dynamics)]
+  - Nagabandi et al.; Berkeley
+  - ![loco] Locomotion, Continious
+
 :rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
   - [[arXiv](https://arxiv.org/abs/1710.02298)], [[pdf](https://arxiv.org/pdf/1710.02298.pdf)]
   - Hessel et al.; Google Deepmind

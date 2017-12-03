@@ -1,4 +1,4 @@
-A constantly evolving list of notes and summaries of the Reinforcement Learning papers.
+A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 [atari]: ./icons/atari.png "Atari 2600 games"
 [doom]: ./icons/doom.png "Doom game"
@@ -33,7 +33,7 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   
   - ![robot] - Real-robot applications (Robot).
   
-  - ![loco] - Simulated robotic locomotion: MuJoCo, Roboschool etc (Locomotion).
+  - ![loco] - Real/Simulated robotic locomotion (MuJoCo, Roboschool etc).
   
   - ![maze] - Mazes and Labyrinths (Maze).
   
@@ -258,6 +258,16 @@ A constantly evolving list of notes and summaries of the Reinforcement Learning 
   - [[pdf](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)]
   - Sutton et al. (2011);  University of Alberta, McGill University
   - ![robot] ![loco] Robot, Locomotion
+  
+:star: **Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion**
+  - [[pdf](http://www.cs.utexas.edu/~ai-lab/pubs/icra04.pdf)]
+  - Kohl and Stone (2004); The University of Texas at Austin
+  - ![robot] ![loco] Robot, Locomotion
+  
+:star: **Autonomous helicopter flight via reinforcement learning**
+  - [[pdf](https://people.eecs.berkeley.edu/~jordan/papers/ng-etal03.pdf)]
+  - Ng et al. (2004); Stanford, Berkeley
+  - ![robot] Robot
   
 :star: **Temporal Difference Learning and TD-Gammon**
   - [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]

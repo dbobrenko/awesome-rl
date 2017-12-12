@@ -52,6 +52,11 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 # Deep Reinforcement Learning
 ## Year 2017
+**Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm**
+  - [[arxiv](https://arxiv.org/abs/1712.01815)], [[pdf](https://arxiv.org/pdf/1712.01815.pdf)]
+  - Silver et al.; DeepMind
+  - ![table] Table
+
 **Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning**
   - [[arXiv](https://arxiv.org/pdf/1708.02596.pdf)], [[pdf](https://github.com/nagaban2/nn_dynamics)], [[official blog post](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)], [[official code](https://github.com/nagaban2/nn_dynamics)]
   - Nagabandi et al.; Berkeley
@@ -59,7 +64,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 :rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
   - [[arXiv](https://arxiv.org/abs/1710.02298)], [[pdf](https://arxiv.org/pdf/1710.02298.pdf)]
-  - Hessel et al.; Google Deepmind
+  - Hessel et al.; Deepmind
   - ![atari] Atari
   
 **RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning**
@@ -79,7 +84,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 :rocket: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
   - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[official blog post](https://deepmind.com/blog/alphago-zero-learning-scratch/)]
-  - Silver et al.; Google Deepmind
+  - Silver et al.; Deepmind
   - ![go] ![table] Go, Table
 
 :rocket: **Learning Transferable Architectures for Scalable Image Recognition**
@@ -138,17 +143,17 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
   
 :star: **Imagination-Augmented Agents for Deep Reinforcement Learning** (I2As)
   - [[arXiv](https://arxiv.org/abs/1707.06203)], [[pdf](https://arxiv.org/pdf/1707.06203.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
-  - Weber et al.; Google DeepMind
+  - Weber et al.; DeepMind
   - ![atari] Planning, Atari, Transfer
   
 **Distral: Robust Multitask Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1707.04175)], [[pdf](https://arxiv.org/pdf/1707.04175.pdf)]
-  - Teh et al.; Google DeepMind
+  - Teh et al.; DeepMind
   - ![maze] Maze, Transfer
 
 **Emergence of Locomotion Behaviours in Rich Environments**
   - [[arXiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)], [[official blog post](https://deepmind.com/blog/producing-flexible-behaviours-simulated-environments/)]
-  - Heess et al.; Google DeepMind
+  - Heess et al.; DeepMind
   - ![loco] Locomotion, Continious
 
 [RTS:SC] **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
@@ -158,7 +163,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **Programmable Agents**
   - [[arXiv](https://arxiv.org/abs/1706.06383v1)], [[pdf](https://arxiv.org/pdf/1706.06383v1.pdf)]
-  - Denil et al.; Google DeepMind
+  - Denil et al.; DeepMind
   - ![loco] Locomotion, Continious
 
 :star: **Hybrid Reward Architecture for Reinforcement Learning** (HRA)
@@ -173,7 +178,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **Neural Episodic Control**
   - [[arXiv](https://arxiv.org/abs/1703.01988v1)], [[pdf](https://arxiv.org/pdf/1703.01988v1.pdf)]
-  - Pritzel et al.; Google DeepMind
+  - Pritzel et al.; DeepMind
   - **Brief Summary.** NEC agent is extremely data efficient. It's performance at 5 millions of frames can be reached by DQN with Prior. Replay only after 40 millions of frames. However, the final perfomance is still worse than the other state-of-the-art agents can obtain.
   - ![atari] Atari
 
@@ -191,7 +196,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
   
 :rocket: **Asynchronous Methods for Deep Reinforcement Learning** (A3C)
   - [[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]
-  - Mnih et al.; Google DeepMind
+  - Mnih et al.; DeepMind
   - :pencil: [**Notes**](./notes/a3c-agent.md)
   - ![atari] ![maze] ![loco] Atari, Maze, Locomotion, Continious
   
@@ -207,7 +212,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **The Predictron: End-To-End Learning and Planning**
   - [[arXiv](https://arxiv.org/abs/1612.08810v2)], [[pdf](https://arxiv.org/pdf/1612.08810v2.pdf)]
-  - Silver et al.; Google DeepMind
+  - Silver et al.; DeepMind
   - ![maze] Maze, Planning
 
 ## Year 2015
@@ -218,17 +223,17 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 :star: **Dueling Network Architectures for Deep Reinforcement Learning** (Dueling DQN)
   - [[arXiv](https://arxiv.org/abs/1511.06581)], [[pdf](https://arxiv.org/pdf/1511.06581.pdf)]
-  - Wang et al.; Google DeepMind
+  - Wang et al.; DeepMind
   - ![atari] Atari
 
 :star: **Deep Reinforcement Learning with Double Q-learning** (Double DQN)
   - [[arXiv](https://arxiv.org/abs/1509.06461)], [[pdf](https://arxiv.org/pdf/1509.06461.pdf)]
-  - Hasselt et al.; Google DeepMind
+  - Hasselt et al.; DeepMind
   - ![atari] Atari
 
 **Prioritized Experience Replay**
   - [[arXiv](https://arxiv.org/abs/1511.05952v4)], [[pdf](https://arxiv.org/pdf/1511.05952v4.pdf)]
-  - Schaul et al.; Google DeepMind
+  - Schaul et al.; DeepMind
   - :pencil: [**Notes**](./notes/prioritized-exp-replay.md)
   - ![atari] Atari
   
@@ -240,7 +245,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
  
 **Mastering the game of Go with deep neural networks and tree search** (AlphaGo Master)
   - [[Nature](https://www.nature.com/nature/journal/v529/n7587/full/nature16961.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/42ytdx/pdf_mastering_the_game_of_go_with_deep_neural/)]
-  - Silver et al.; Google Deepmind, Google
+  - Silver et al.; Deepmind, Google
   - ![go] ![table] Go, Table
 
 ## Year 2013

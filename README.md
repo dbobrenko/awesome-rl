@@ -285,7 +285,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 ## Books
 :star: **Reinforcement Learning: An Introduction** (Complete Draft)
-  - [[pdf](http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf)]
+  - [[pdf](https://drive.google.com/open?id=1C_nbYBx2_hshe1Kzu2SeXXd_j98qaNah)]
   - Richard S. Sutton and Andrew G. Barto (2017)
   
 ## Miscellaneous

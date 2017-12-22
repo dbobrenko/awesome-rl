@@ -36,10 +36,14 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 # Deep Reinforcement Learning
 
 ## Year 2017
+:rocket: **Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/abs/1708.02596)], [[pdf](https://arxiv.org/pdf/1708.02596.pdf)]
+  - Such et al.; Uber AI Labs
+  - ![atari] ![loco] Atari, Locomotion, Continuous
 
 **Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning**
 
-- [[arXiv](https://arxiv.org/pdf/1708.02596.pdf)], [[pdf](https://github.com/nagaban2/nn_dynamics)], [[official blog post](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)], [[official code](https://github.com/nagaban2/nn_dynamics)]
+- [[arXiv](https://arxiv.org/abs/1708.02596)], [[pdf](https://arxiv.org/pdf/1708.02596.pdf)], [[official blog post](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)], [[official code](https://github.com/nagaban2/nn_dynamics)]
 - Nagabandi et al.; Berkeley
 - ![loco] Locomotion, Continuous
 

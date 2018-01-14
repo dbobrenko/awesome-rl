@@ -316,6 +316,11 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - Ng et al. (2004); Stanford, Berkeley
 - ![robot] Robot
 
+:star: **Actor-Critic Algorithms**
+
+- [[pdf](https://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf)]
+- Konda and Tsitsiklis (2003)
+
 :star: **Temporal Difference Learning and TD-Gammon**
 
 - [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]

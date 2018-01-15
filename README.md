@@ -37,7 +37,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 ## Year 2017
 :rocket: **Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning**
-  - [[arXiv](https://arxiv.org/abs/1708.02596)], [[pdf](https://arxiv.org/pdf/1708.02596.pdf)]
+  - [[arXiv](https://arxiv.org/abs/1712.06567)], [[pdf](https://arxiv.org/pdf/1712.06567.pdf)]
   - Such et al.; Uber AI Labs
   - ![atari] ![loco] Atari, Locomotion, Continuous
 

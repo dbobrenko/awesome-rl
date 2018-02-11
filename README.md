@@ -36,171 +36,190 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 # Deep Reinforcement Learning
 
 ## Year 2017
+:rocket: **IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures**
+  - [[arXiv](https://arxiv.org/abs/1802.01561v1)], [[pdf](https://arxiv.org/pdf/1802.01561v1.pdf)]
+  - Such et al.; Uber AI Labs
+  - ![atari] ![maze] Atari, Maze
+
+
 :rocket: **Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1712.06567)], [[pdf](https://arxiv.org/pdf/1712.06567.pdf)]
   - Such et al.; Uber AI Labs
   - ![atari] ![loco] Atari, Locomotion, Continuous
 
-**Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning**
 
+**Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning**
 - [[arXiv](https://arxiv.org/abs/1708.02596)], [[pdf](https://arxiv.org/pdf/1708.02596.pdf)], [[official blog post](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)], [[official code](https://github.com/nagaban2/nn_dynamics)]
 - Nagabandi et al.; Berkeley
 - ![loco] Locomotion, Continuous
 
-:rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
 
+:rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
 - [[arXiv](https://arxiv.org/abs/1710.02298)], [[pdf](https://arxiv.org/pdf/1710.02298.pdf)]
 - Hessel et al.; Deepmind
 - ![atari] Atari
 
-:rocket: **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation** (ACKTR, A2C)
 
+:rocket: **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation** (ACKTR, A2C)
 - [[arXiv](https://arxiv.org/abs/1708.05144)], [[pdf](https://arxiv.org/pdf/1708.05144.pdf)]
 - Wu et al.; University of Toronto, New York University
 - ![atari] ![loco] Atari, Locomotion, Continious
 
-:rocket: **Proximal Policy Optimization Algorithms** (PPO)
 
+:rocket: **Proximal Policy Optimization Algorithms** (PPO)
 - [[arXiv](https://arxiv.org/abs/1707.06347)], [[pdf](https://arxiv.org/pdf/1707.06347.pdf)], [[official blog post](https://blog.openai.com/openai-baselines-ppo/)]
 - Schulman et al.; OpenAI
 - ![atari] ![loco] Atari, Locomotion, Continious
 
-:star: **Learning with Opponent-Learning Awareness** (LOLA)
 
+:star: **Learning with Opponent-Learning Awareness** (LOLA)
 - [[arXiv](https://arxiv.org/abs/1709.04326)], [[pdf](https://arxiv.org/pdf/1709.04326.pdf)], [[official blog post](https://blog.openai.com/learning-to-model-other-minds/)]
 - Foerster et al.; OpenAI, University of Oxford, UC Berkeley, Carnegie Mellon University
 - Multi
 
-:star: **Hybrid Reward Architecture for Reinforcement Learning** (HRA)
 
+:star: **Hybrid Reward Architecture for Reinforcement Learning** (HRA)
 - [[arXiv](https://arxiv.org/abs/1706.04208v1)], [[pdf](https://arxiv.org/pdf/1706.04208v1.pdf)]
 - van Seijen et al.; Microsoft Maluuba, McGill University
 - ![atari] Atari
 
-:star: **Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
 
+:star: **Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
 - [[arXiv](https://arxiv.org/abs/1703.03864v1)], [[pdf](https://arxiv.org/pdf/1703.03864v1.pdf)]
 - Salimans et al.; OpenAI
 - ![atari] Atari
 
-**Parameter Space Noise for Exploration**
 
+**Parameter Space Noise for Exploration**
 - [[arXiv](https://arxiv.org/abs/1706.01905)], [[pdf](https://arxiv.org/pdf/1706.01905)]
 - Plappert et al.; OpenAI, Karlsruhe Institute of Technology
 - ![atari] ![loco] Atari, Locomotion, Continious
 
-**RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning**
 
+**RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning**
 - [[arXiv](https://arxiv.org/abs/1611.02779)], [[pdf](https://arxiv.org/pdf/1611.02779.pdf)]
 - Duan et al.; Berkeley, OpenAI
 - ![maze] Maze, Meta-Learning
 
-:star: **Meta Learning Shared Hierarchies**
 
+:star: **One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning**
+  - [[arXiv](https://arxiv.org/abs/1802.01557v1)], [[pdf](https://arxiv.org/pdf/1802.01557v1.pdf)]
+  - Finn et al.; UC Berkeley
+  - ![robot] Robot, Meta-Learning
+
+
+:star: **Meta Learning Shared Hierarchies**
 - [[arXiv](https://arxiv.org/abs/1710.09767)], [[pdf](https://arxiv.org/pdf/1710.09767.pdf)], [[official blog post](https://blog.openai.com/learning-a-hierarchy/)]
 - Frans et al.; OpenAI, UC Berkeley
 - ![loco] Locomotion, Continuous, Meta-Learning
 
-**One-Shot Visual Imitation Learning via Meta-Learning**
 
+**One-Shot Visual Imitation Learning via Meta-Learning**
 - [[arXiv](https://arxiv.org/abs/1709.04905)], [[pdf](https://arxiv.org/pdf/1709.04905.pdf)]
 - Finn et al.; UC Berkeley, OpenAI
 - ![robot] Robot, Continious, Meta-Learning
 
-:rocket: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
 
+:rocket: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
 - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[official blog post](https://deepmind.com/blog/alphago-zero-learning-scratch/)]
 - Silver et al.; Deepmind
 - ![go] ![table] Go, Table
 
-**Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm**
 
+**Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm**
 - [[arxiv](https://arxiv.org/abs/1712.01815)], [[pdf](https://arxiv.org/pdf/1712.01815.pdf)]
 - Silver et al.; DeepMind
 - ![table] Table
 
-:rocket: **Learning Transferable Architectures for Scalable Image Recognition**
 
+:rocket: **Regularized Evolution for Image Classifier Architecture Search**
+- [[arXiv](https://arxiv.org/abs/1802.01548v2)], [[pdf](https://arxiv.org/pdf/1802.01548v2.pdf)]
+- Real et al.; Google Brain
+- ![nn] NN
+
+
+:rocket: **Learning Transferable Architectures for Scalable Image Recognition**
 - [[arXiv](https://arxiv.org/abs/1707.07012)], [[pdf](https://arxiv.org/pdf/1707.07012.pdf)]
 - Zoph et al.; Google Brain
 - ![nn] NN
 
-**Neural Optimizer Search with Reinforcement Learning**
 
+**Neural Optimizer Search with Reinforcement Learning**
 - [[pdf](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)]
 - Bello et al.; Google Brain
 - ![nn] NN
 
-**Neural Architecture Search with Reinforcement Learning**
 
+**Neural Architecture Search with Reinforcement Learning**
 - [[arXiv](https://arxiv.org/abs/1611.01578)], [[pdf](https://arxiv.org/pdf/1611.01578.pdf)]
 - B. Zoph and Quoc V. Le; Google Brain; ICLR.
 - ![nn] NN
 
-**Asymmetric Actor Critic for Image-Based Robot Learning**
 
+**Asymmetric Actor Critic for Image-Based Robot Learning**
 - [[arXiv](https://arxiv.org/abs/1710.06542)], [[pdf](https://arxiv.org/pdf/1710.06542.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
 - Pinto et al.; OpenAI, CMU
 - ![robot] Robot, Continous
 
-**Sim-to-Real Transfer of Robotic Control with Dynamics Randomization**
 
+**Sim-to-Real Transfer of Robotic Control with Dynamics Randomization**
 - [[arXiv](https://arxiv.org/abs/1710.06537)], [[pdf](https://arxiv.org/pdf/1710.06537.pdf)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)]
 - Peng et al.; OpenAI, UC Berkeley
 - ![robot] Robot, Continuous
 
-**A Deep Reinforcement Learning Chatbot**
 
+**A Deep Reinforcement Learning Chatbot**
 - [[arXiv](https://arxiv.org/abs/1709.02349)], [[pdf](https://arxiv.org/pdf/1709.02349.pdf)]
 - Serban et al.; MILA
 
-**Learning model-based planning from scratch**
 
+**Learning model-based planning from scratch**
 - [[arXiv](https://arxiv.org/abs/1707.06170)], [[pdf](https://arxiv.org/pdf/1707.06170.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
 - Pascanu et al.; Google DeepMind
 - ![loco] Locomotion, Continious
 
-:star: **Imagination-Augmented Agents for Deep Reinforcement Learning** (I2As)
 
+:star: **Imagination-Augmented Agents for Deep Reinforcement Learning** (I2As)
 - [[arXiv](https://arxiv.org/abs/1707.06203)], [[pdf](https://arxiv.org/pdf/1707.06203.pdf)], [[official blog post](https://deepmind.com/blog/agents-imagine-and-plan/)]
 - Weber et al.; DeepMind
 - ![atari] Planning, Atari, Transfer
 
-**Distral: Robust Multitask Reinforcement Learning**
 
+**Distral: Robust Multitask Reinforcement Learning**
 - [[arXiv](https://arxiv.org/abs/1707.04175)], [[pdf](https://arxiv.org/pdf/1707.04175.pdf)]
 - Teh et al.; DeepMind
 - ![maze] Maze, Transfer
 
-**Emergence of Locomotion Behaviours in Rich Environments**
 
+**Emergence of Locomotion Behaviours in Rich Environments**
 - [[arXiv](https://arxiv.org/abs/1707.02286)], [[pdf](https://arxiv.org/pdf/1707.02286.pdf)], [[official blog post](https://deepmind.com/blog/producing-flexible-behaviours-simulated-environments/)]
 - Heess et al.; DeepMind
 - ![loco] Locomotion, Continious
 
-[RTS:SC] **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
 
+**Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
 - [[arXiv](https://arxiv.org/abs/1609.02993)], [[pdf](https://arxiv.org/pdf/1703.10069.pdf)]
 - Peng et al.; Alibaba Group, University College London
 - ![sc] Starcraft, Multi
 
-**Programmable Agents**
 
+**Programmable Agents**
 - [[arXiv](https://arxiv.org/abs/1706.06383v1)], [[pdf](https://arxiv.org/pdf/1706.06383v1.pdf)]
 - Denil et al.; DeepMind
 - ![loco] Locomotion, Continuous
 
-**Neural Episodic Control**
 
+**Neural Episodic Control**
 - [[arXiv](https://arxiv.org/abs/1703.01988v1)], [[pdf](https://arxiv.org/pdf/1703.01988v1.pdf)]
 - Pritzel et al.; DeepMind
 - **Brief Summary.** NEC agent is extremely data efficient. It's performance at 5 millions of frames can be reached by DQN with Prior. Replay only after 40 millions of frames. However, the final performance is still worse than the other state-of-the-art agents can obtain.
 - ![atari] Atari
 
+
 ## Year 2016
 
-:rocket: **Asynchronous Methods for Deep Reinforcement Learning** (A3C)
 
+:rocket: **Asynchronous Methods for Deep Reinforcement Learning** (A3C)
 - [[arXiv](https://arxiv.org/abs/1602.01783v2)], [[pdf](https://arxiv.org/pdf/1602.01783v2.pdf)]
 - Mnih et al.; DeepMind
 - :pencil: [**Notes**](./notes/a3c-agent.md)

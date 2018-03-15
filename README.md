@@ -36,6 +36,10 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 # Deep Reinforcement Learning
 
 ## Year 2018
+**Back to Basics: Benchmarking Canonical Evolution Strategies for Playing Atari**
+  - [[arXiv](https://arxiv.org/abs/1802.08842)] Chrabaszcz et al.; University of Freiburg
+  - ![atari] Atari
+
 :rocket: **IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures**
   - [[arXiv](https://arxiv.org/abs/1802.01561v2)], [[pdf](https://arxiv.org/abs/1802.01561v2)]
   - Such et al.; Uber AI Labs

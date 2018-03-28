@@ -36,7 +36,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 ## Year 2018
 **World Models**
-  - [[arXiv](https://arxiv.org/abs/1803.10122)] [[blog](https://worldmodels.github.io/)] Ha and Schmidhuber
+  - [[arXiv](https://arxiv.org/abs/1803.10122)] [[blog](https://worldmodels.github.io/)] Ha and Schmidhuber; IDSIA, Google Brain, NNAISENSE
   - ![doom] Model-based, Doom
 
 **Back to Basics: Benchmarking Canonical Evolution Strategies for Playing Atari**
@@ -69,15 +69,15 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - ![table] Table
 
 :rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
-- [[arXiv](https://arxiv.org/abs/1710.02298)] Hessel et al. Deepmind
+- [[arXiv](https://arxiv.org/abs/1710.02298)] Hessel et al.; Deepmind
 - ![atari] Atari
 
 :star: **Meta Learning Shared Hierarchies**
-- [[arXiv](https://arxiv.org/abs/1710.09767)] [[blog](https://blog.openai.com/learning-a-hierarchy/)] Frans et al. OpenAI, Berkeley.
+- [[arXiv](https://arxiv.org/abs/1710.09767)] [[blog](https://blog.openai.com/learning-a-hierarchy/)] Frans et al.; OpenAI, Berkeley.
 - ![loco] Locomotion, Meta-Learning
 
 **One-Shot Visual Imitation Learning via Meta-Learning**
-- [[arXiv](https://arxiv.org/abs/1709.04905)] [[pdf](https://arxiv.org/pdf/1709.04905.pdf)] Finn et al. UC Berkeley, OpenAI
+- [[arXiv](https://arxiv.org/abs/1709.04905)] [[pdf](https://arxiv.org/pdf/1709.04905.pdf)] Finn et al.; UC Berkeley, OpenAI
 - ![robot] Robot, Meta-Learning
 
 :star: **Learning with Opponent-Learning Awareness** (LOLA)
@@ -93,8 +93,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - ![loco] Locomotion
 
 :rocket: **Proximal Policy Optimization Algorithms** (PPO)
-- [[arXiv](https://arxiv.org/abs/1707.06347)] [[pdf](https://arxiv.org/pdf/1707.06347.pdf)] [[blog](https://blog.openai.com/openai-baselines-ppo/)]
-- Schulman et al.; OpenAI
+- [[arXiv](https://arxiv.org/abs/1707.06347)] [[blog](https://blog.openai.com/openai-baselines-ppo/)] Schulman et al.; OpenAI
 - ![atari] ![loco] Atari, Locomotion
 
 :rocket: **Learning Transferable Architectures for Scalable Image Recognition**

@@ -42,7 +42,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - ![plan] - Strategy Planning Problems (Planning).
 - ![transfer] - Transfer learning (Transfer).
 - ![irl] - Inverse Reinforcement Learning (IRL)
-- ![irl] - Meta-Learning
+- ![meta] - Meta-Learning
 
 # Deep Reinforcement Learning
 

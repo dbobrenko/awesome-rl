@@ -18,6 +18,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 [transfer]: ./icons/transfer.png	"Transfer Learning"
 [irl]: ./icons/irl.png	"Inverse Reinforcement Learning"
 [meta]: ./icons/meta.png	"Meta-Learning"
+[sparse]: ./icons/sparse.png	"Sparse Reward Problems"
 
 **Glossary:**
 
@@ -31,11 +32,6 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - ![evo] - Evolutionary & Genetic Algorithms (Evo).
 - ![gener] - Generalization across environments (Generalization).
 - ![nn] - Neural Networks & Optimizers (NN).
-- ![table] - Table games (Table).
-- ![atari] - Atari game (Atari).
-- ![doom] - Doom game (Doom).
-- ![sc] - Starcraft game (Starcraft).
-- ![go] - Go game (Go).
 - ![robot] - Real-robot applications (Robot).
 - ![loco] - Real/Simulated robotic locomotion (MuJoCo, Roboschool etc).
 - ![maze] - Mazes and Labyrinths (Maze).
@@ -43,11 +39,33 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - ![transfer] - Transfer learning (Transfer).
 - ![irl] - Inverse Reinforcement Learning (IRL)
 - ![meta] - Meta-Learning
+- ![sparse] - Sparse Reward Problems and/or Montezuma's Revenge (Sparse)
+- ![atari] - Atari game (Atari).
+- ![table] - Table games (Table).
+- ![doom] - Doom game (Doom).
+- ![sc] - Starcraft game (Starcraft).
+- ![go] - Go game (Go).
 
 # Deep Reinforcement Learning
 
 ## Year 2018
-**World Models**
+**Relational Deep Reinforcement Learning**
+  - [[arXiv](https://arxiv.org/pdf/1806.01830.pdf)] Zambaldi et al.; DeepMind
+  - ![plan] ![sc]
+
+**Deep Curiosity Search: Intra-Life Exploration Improves Performance on Challenging Deep Reinforcement Learning Problems**
+  - [[arXiv](https://arxiv.org/abs/1806.00553)] Stanton and Clune; University of Wyoming
+  - ![sparse] Sparse
+
+**AutoAugment: Learning Augmentation Policies from Data**
+  - [[arXiv](https://arxiv.org/abs/1805.09501)] Cubuk et al.; Google Brain
+  - ![nn] NN
+
+**Playing Atari with Six Neurons**
+  - [[arXiv](https://arxiv.org/abs/1806.01363)] Cucci et al.; University of Fribourg, NYU
+  - ![atari] Atari
+  
+:star: **World Models**
   - [[arXiv](https://arxiv.org/abs/1803.10122)] [[blog](https://worldmodels.github.io/)] Ha and Schmidhuber; IDSIA, Google Brain, NNAISENSE
   - ![model] ![doom] Model-based, Doom
 
@@ -59,7 +77,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
   - [[arXiv](https://arxiv.org/abs/1802.01561v2)] Such et al.; Uber AI Labs
   - ![atari] ![maze] Atari, Maze
 
-:star: **One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning**
+**One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning**
   - [[arXiv](https://arxiv.org/abs/1802.01557v1)] Finn et al.; UC Berkeley
   - ![irl] ![robot] IRL, Robot
 
@@ -69,7 +87,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 
 ## Year 2017
-:rocket: **Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning**
+:star: **Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1712.06567)] Such et al.; Uber AI Labs
   - ![atari] ![loco] Atari, Locomotion
 
@@ -77,7 +95,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - [[arxiv](https://arxiv.org/abs/1712.01815)] Silver et al.; DeepMind
 - ![plan] ![table] Planning, Table
 
-:rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
+:star: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
 - [[arXiv](https://arxiv.org/abs/1710.02298)] Hessel et al.; Deepmind
 - ![atari] Atari
 

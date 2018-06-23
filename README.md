@@ -32,8 +32,8 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - ![evo] - Evolutionary & Genetic Algorithms (Evo).
 - ![gener] - Generalization across environments (Generalization).
 - ![nn] - Neural Networks & Optimizers (NN).
-- ![robot] - Real-robot applications (Robot).
-- ![loco] - Real/Simulated robotic locomotion (MuJoCo, Roboschool etc).
+- ![robot] - Manipulation tasks (Manipulator).
+- ![loco] - Locomotion: MuJoCo, Roboschool etc (Locomotion)
 - ![maze] - Mazes and Labyrinths (Maze).
 - ![plan] - Strategy Planning Problems (Planning).
 - ![transfer] - Transfer learning (Transfer).
@@ -49,9 +49,13 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 # Deep Reinforcement Learning
 
 ## Year 2018
+:rocket: **RUDDER: Return Decomposition for Delayed Rewards**
+  - [[arXiv](https://arxiv.org/abs/1806.07857)] [[code](https://github.com/ml-jku/baselines-rudder)]
+  - ![sparse] ![atari] Sparse, Atari
+  
 **Relational Deep Reinforcement Learning**
   - [[arXiv](https://arxiv.org/pdf/1806.01830.pdf)] Zambaldi et al.; DeepMind
-  - ![plan] ![sc]
+  - ![plan] ![sc] Planning, Starcraft
 
 **Deep Curiosity Search: Intra-Life Exploration Improves Performance on Challenging Deep Reinforcement Learning Problems**
   - [[arXiv](https://arxiv.org/abs/1806.00553)] Stanton and Clune; University of Wyoming
@@ -79,7 +83,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning**
   - [[arXiv](https://arxiv.org/abs/1802.01557v1)] Finn et al.; UC Berkeley
-  - ![irl] ![robot] IRL, Robot
+  - ![irl] ![robot] IRL, Manipulator
 
 :rocket: **Regularized Evolution for Image Classifier Architecture Search**
   - [[arXiv](https://arxiv.org/abs/1802.01548v2)] Real et al.; Google Brain
@@ -89,7 +93,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 ## Year 2017
 :star: **Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning**
   - [[arXiv](https://arxiv.org/abs/1712.06567)] Such et al.; Uber AI Labs
-  - ![atari] ![loco] Atari, Locomotion
+  - ![loco] ![atari] Locomotion, Atari
 
 **Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm**
 - [[arxiv](https://arxiv.org/abs/1712.01815)] Silver et al.; DeepMind
@@ -105,7 +109,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **One-Shot Visual Imitation Learning via Meta-Learning**
 - [[arXiv](https://arxiv.org/abs/1709.04905)] [[pdf](https://arxiv.org/pdf/1709.04905.pdf)] Finn et al.; UC Berkeley, OpenAI
-- ![irl] ![meta] ![robot] IRL, Robot, Meta-Learning
+- ![irl] ![meta] ![robot] IRL, Manipulator, Meta-Learning
 
 :star: **Learning with Opponent-Learning Awareness** (LOLA)
 - [[arXiv](https://arxiv.org/abs/1709.04326)] [[blog](https://blog.openai.com/learning-to-model-other-minds/)] Foerster et al.; OpenAI, Oxford, Berkeley, CMU
@@ -146,29 +150,27 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **Asymmetric Actor Critic for Image-Based Robot Learning**
 - [[arXiv](https://arxiv.org/abs/1710.06542)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)] Pinto et al.; OpenAI, CMU
-- ![gener] ![robot] Generalization, Robot
+- ![gener] ![robot] Generalization, Manipulator
 
 
 **Sim-to-Real Transfer of Robotic Control with Dynamics Randomization**
 - [[arXiv](https://arxiv.org/abs/1710.06537)], [[blog](https://blog.openai.com/generalizing-from-simulation/)] Peng et al.; OpenAI, Berkeley
-- ![gener] ![robot] Generalization, Robot
+- ![gener] ![robot] Generalization, Manipulator
 
 **A Deep Reinforcement Learning Chatbot**
 - [[arXiv](https://arxiv.org/abs/1709.02349)] Serban et al.; MILA
 
 **Learning model-based planning from scratch**
 - [[arXiv](https://arxiv.org/abs/1707.06170)], [[blog](https://deepmind.com/blog/agents-imagine-and-plan/)] Pascanu et al.; Google DeepMind
-- ![model] ![loco] Model, Locomotion
+- ![model] ![loco] Model-based, Locomotion
 
 :star: **Imagination-Augmented Agents for Deep Reinforcement Learning** (I2As)
 - [[arXiv](https://arxiv.org/abs/1707.06203)] [[blog](https://deepmind.com/blog/agents-imagine-and-plan/)] Weber et al.; DeepMind
 - ![plan] ![transfer] ![atari] Planning, Atari, Transfer
 
-
 **Distral: Robust Multitask Reinforcement Learning**
 - [[arXiv](https://arxiv.org/abs/1707.04175)] Teh et al.; DeepMind
 - ![transfer] ![maze] Transfer, Maze
-
 
 **Emergence of Locomotion Behaviours in Rich Environments**
 - [[arXiv](https://arxiv.org/abs/1707.02286)] [[blog](https://deepmind.com/blog/producing-flexible-behaviours-simulated-environments/)] Heess et al.; DeepMind
@@ -203,11 +205,11 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 **Reinforcement Learning with unsupervised auxiliary tasks** (UNREAL)
 - [[arXiv](https://arxiv.org/abs/1611.05397)] Jaderberg et al.; Google DeepMind
 - :pencil: [**Notes**](./notes/unreal-agent.md)
-- ![atari] ![maze] ![loco] Atari, Maze, Locomotion
+- ![loco] ![atari] ![maze] Locomotion, Atari, Maze
 
 :rocket: **Learning to act by predicting the future** (VizDoom 2016 Full DM Winner)
 - [[arXiv](https://arxiv.org/abs/1611.01779)] Dosovitskiy, Koltun; Intel Labs
-- ![doom] ![maze] Doom, Maze
+- ![maze] ![doom] Maze, Doom
 
 **Multiagent Bidirectionally-Coordinated Nets for Learning to Play StarCraft Combat Games**
 - [[arXiv](https://arxiv.org/abs/1609.02993)] Peng et al.; Alibaba Group, University College London
@@ -215,7 +217,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **Playing FPS Games with Deep Reinforcement Learning** (VizDoom 2016 Limited DM 2nd place)
 - [[arXiv](https://arxiv.org/abs/1609.05521)] Lample, Chaplot; Carnegie Mellon University
-- ![doom] ![maze] Doom, Maze
+- ![maze] ![doom] Maze, Doom
 
 [RTS:SC] **Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks**
 - [[arXiv](https://arxiv.org/abs/1609.02993)] Usunier et al.; Facebook AI Research
@@ -224,7 +226,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 :rocket: **Asynchronous Methods for Deep Reinforcement Learning** (A3C)
 - [[arXiv](https://arxiv.org/abs/1602.01783v2)] Mnih et al.; DeepMind
 - :pencil: [**Notes**](./notes/a3c-agent.md)
-- ![atari] ![maze] ![loco] Atari, Maze, Locomotion
+- ![loco] ![atari] ![maze] Locomotion, Atari, Maze
 
 ## Year 2015
 
@@ -273,38 +275,26 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 ## 2012 and earlier
 
 **Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction**
+- [[pdf](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)] Sutton et al. (2011);  University of Alberta, McGill University
+- ![robot] ![loco] Manipulator, Locomotion
 
-- [[pdf](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)]
-- Sutton et al. (2011);  University of Alberta, McGill University
-- ![robot] ![loco] Robot, Locomotion
-
-:star: **Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion**
-
-- [[pdf](http://www.cs.utexas.edu/~ai-lab/pubs/icra04.pdf)]
-- Kohl and Stone (2004); The University of Texas at Austin
-- ![robot] ![loco] Robot, Locomotion
+:star: **Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion** 
+- [[pdf](http://www.cs.utexas.edu/~ai-lab/pubs/icra04.pdf)] Kohl and Stone (2004); The University of Texas at Austin
+- ![robot] ![loco] Manipulator, Locomotion
 
 :star: **Autonomous helicopter flight via reinforcement learning**
-
-- [[pdf](https://people.eecs.berkeley.edu/~jordan/papers/ng-etal03.pdf)]
-- Ng et al. (2004); Stanford, Berkeley
-- ![robot] Robot
+- [[pdf](https://people.eecs.berkeley.edu/~jordan/papers/ng-etal03.pdf)] Ng et al. (2004); Stanford, Berkeley
+- ![robot] Manipulator
 
 :star: **Actor-Critic Algorithms**
-
-- [[pdf](https://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf)]
-- Konda and Tsitsiklis (2003)
+- [[pdf](https://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf)] Konda and Tsitsiklis (2003)
 
 :star: **Temporal Difference Learning and TD-Gammon**
-
-- [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)]
-- Gerald Tesauro (1995)
+- [[pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)] Gerald Tesauro (1995)
 - ![table] Table
 
 :star: **Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning** (REINFORCE)
-
-- [[pdf](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)]
-- Ronald J. Williams (1992); Northeastern University
+- [[pdf](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)] Ronald J. Williams (1992); Northeastern University
 
 ## Surveys
 **A Brief Survey of Deep Reinforcement Learning**
@@ -317,6 +307,4 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 ## Miscellaneous
 
 **How to Read a Paper**
-
-- [[pdf](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)]
-- S. Keshav (2007); University of Waterloo
+- [[pdf](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)] S. Keshav (2007); University of Waterloo

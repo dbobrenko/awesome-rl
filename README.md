@@ -25,6 +25,9 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - :rocket: - state-of-the-art method in current domain at the moment of paper publication.
 - :star: - valuable paper.
 
+<details>
+  <summary><b>Click here to see Domain Tag icons description</b></summary>
+
 **Domain Tags**:
 - ![model] - Model-based RL (Model-based).
 - ![marl] - Multi-Agent RL (MARL).
@@ -45,6 +48,8 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - ![doom] - Doom game (Doom).
 - ![sc] - Starcraft game (Starcraft).
 - ![go] - Go game (Go).
+
+</details>
 
 # Deep Reinforcement Learning
 

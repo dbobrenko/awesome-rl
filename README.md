@@ -26,17 +26,16 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 - :star: - valuable paper.
 
 <details>
-  <summary><b>Click here to see Domain Tag icons description</b></summary>
+  <summary><b><i>Click here to see Domain Tag icon descriptions.</i></b></summary>
 
-**Domain Tags**:
 - ![model] - Model-based RL (Model-based).
 - ![marl] - Multi-Agent RL (MARL).
-- ![sp] - Self-Play (SP).
-- ![evo] - Evolutionary & Genetic Algorithms (Evo).
+- ![sp] - Self-Play.
+- ![evo] - Evolutionary & Genetic Algorithms (Evolution).
 - ![gener] - Generalization across environments (Generalization).
 - ![nn] - Neural Networks & Optimizers (NN).
 - ![robot] - Manipulation tasks (Manipulator).
-- ![loco] - Locomotion: MuJoCo, Roboschool etc (Locomotion)
+- ![loco] - Locomotion: MuJoCo, Roboschool, etc (Locomotion)
 - ![maze] - Mazes and Labyrinths (Maze).
 - ![plan] - Strategy Planning Problems (Planning).
 - ![transfer] - Transfer learning (Transfer).
@@ -55,7 +54,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 ## Year 2018
 :rocket: **RUDDER: Return Decomposition for Delayed Rewards**
-  - [[arXiv](https://arxiv.org/abs/1806.07857)] [[code](https://github.com/ml-jku/baselines-rudder)]
+  - [[arXiv](https://arxiv.org/abs/1806.07857)] [[code](https://github.com/ml-jku/baselines-rudder)] Arjona-Medina et al.; Johannes Kepler University Linz
   - ![sparse] ![atari] Sparse, Atari
   
 **Relational Deep Reinforcement Learning**
@@ -100,9 +99,9 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
   - [[arXiv](https://arxiv.org/abs/1712.06567)] Such et al.; Uber AI Labs
   - ![loco] ![atari] Locomotion, Atari
 
-**Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm**
+:star: **Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm**
 - [[arxiv](https://arxiv.org/abs/1712.01815)] Silver et al.; DeepMind
-- ![plan] ![table] Planning, Table
+- ![sp] ![plan] ![table] Self-Play, Planning, Table
 
 :star: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
 - [[arXiv](https://arxiv.org/abs/1710.02298)] Hessel et al.; Deepmind
@@ -114,15 +113,15 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **One-Shot Visual Imitation Learning via Meta-Learning**
 - [[arXiv](https://arxiv.org/abs/1709.04905)] [[pdf](https://arxiv.org/pdf/1709.04905.pdf)] Finn et al.; UC Berkeley, OpenAI
-- ![irl] ![meta] ![robot] IRL, Manipulator, Meta-Learning
+- ![irl] ![meta] ![robot] IRL, Meta-Learning, Manipulator
 
-:star: **Learning with Opponent-Learning Awareness** (LOLA)
+**Learning with Opponent-Learning Awareness** (LOLA)
 - [[arXiv](https://arxiv.org/abs/1709.04326)] [[blog](https://blog.openai.com/learning-to-model-other-minds/)] Foerster et al.; OpenAI, Oxford, Berkeley, CMU
 - ![marl] MARL
 
 :rocket: **Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation** (ACKTR, A2C)
 - [[arXiv](https://arxiv.org/abs/1708.05144)] Wu et al.; University of Toronto, New York University
-- ![atari] ![loco] Atari, Locomotion
+- ![loco] ![atari] Locomotion, Atari
 
 **Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning**
 - [[arXiv](https://arxiv.org/abs/1708.02596)] [[blog](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)] [[code](https://github.com/nagaban2/nn_dynamics)] Nagabandi et al.; Berkeley
@@ -130,33 +129,31 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 :rocket: **Proximal Policy Optimization Algorithms** (PPO)
 - [[arXiv](https://arxiv.org/abs/1707.06347)] [[blog](https://blog.openai.com/openai-baselines-ppo/)] Schulman et al.; OpenAI
-- ![atari] ![loco] Atari, Locomotion
+- ![atari] ![loco] Locomotion, Atari
 
 :rocket: **Learning Transferable Architectures for Scalable Image Recognition**
 - [[arXiv](https://arxiv.org/abs/1707.07012)] Zoph et al.; Google Brain
 - ![nn] NN
 
-:star: **Hybrid Reward Architecture for Reinforcement Learning** (HRA)
+**Hybrid Reward Architecture for Reinforcement Learning** (HRA)
 - [[arXiv](https://arxiv.org/abs/1706.04208v1)] van Seijen et al.; Microsoft Maluuba, McGill University
-- ![atari] Atari
+- ![meta] ![atari] Meta-Learning, Atari
 
 **Parameter Space Noise for Exploration**
 - [[arXiv](https://arxiv.org/abs/1706.01905)] Plappert et al.; OpenAI, Karlsruhe Institute of Technology
-- ![atari] ![loco] Atari, Locomotion
+- ![loco] ![atari] Locomotion, Atari
 
 :rocket: **Mastering the Game of Go without Human Knowledge** (AlphaGo Zero)
 - [[pdf](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)], [[blog](https://deepmind.com/blog/alphago-zero-learning-scratch/)] Silver et al.; Deepmind
-- ![go] ![table] ![plan] Go, Table, Planning
+- ![sp] ![plan] ![go] ![table] Self-Play, Planning, Go, Table
 
 **Neural Optimizer Search with Reinforcement Learning**
 - [[pdf](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)] Bello et al.; Google Brain
 - ![nn] NN
 
-
 **Asymmetric Actor Critic for Image-Based Robot Learning**
 - [[arXiv](https://arxiv.org/abs/1710.06542)], [[official blog post](https://blog.openai.com/generalizing-from-simulation/)] Pinto et al.; OpenAI, CMU
 - ![gener] ![robot] Generalization, Manipulator
-
 
 **Sim-to-Real Transfer of Robotic Control with Dynamics Randomization**
 - [[arXiv](https://arxiv.org/abs/1710.06537)], [[blog](https://blog.openai.com/generalizing-from-simulation/)] Peng et al.; OpenAI, Berkeley
@@ -171,7 +168,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 :star: **Imagination-Augmented Agents for Deep Reinforcement Learning** (I2As)
 - [[arXiv](https://arxiv.org/abs/1707.06203)] [[blog](https://deepmind.com/blog/agents-imagine-and-plan/)] Weber et al.; DeepMind
-- ![plan] ![transfer] ![atari] Planning, Atari, Transfer
+- ![plan] ![transfer] ![atari] Planning, Transfer, Atari
 
 **Distral: Robust Multitask Reinforcement Learning**
 - [[arXiv](https://arxiv.org/abs/1707.04175)] Teh et al.; DeepMind
@@ -265,7 +262,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 **Mastering the game of Go with deep neural networks and tree search** (AlphaGo Master)
 
 - [[Nature](https://www.nature.com/nature/journal/v529/n7587/full/nature16961.html)], [[reddit](https://www.reddit.com/r/MachineLearning/comments/42ytdx/pdf_mastering_the_game_of_go_with_deep_neural/)] Silver et al.; Deepmind, Google
-- ![go] ![table] ![plan] Go, Table, Planning
+- ![sp] ![plan] ![go] ![table] Self-Play, Planning, Go, Table
 
 ## Year 2013
 
@@ -313,3 +310,11 @@ A constantly evolving list of Reinforcement Learning papers, notes, books etc.
 
 **How to Read a Paper**
 - [[pdf](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)] S. Keshav (2007); University of Waterloo
+
+**ArXiv Sanity Preserver**: A recommender system for searching papers that are published on arXiv.
+  - [http://www.arxiv-sanity.com/](http://www.arxiv-sanity.com/)
+  
+**GitXiv**: A recommender system for searching papers and their supplementary materials (if available).
+  - [http://www.gitxiv.com/](http://www.gitxiv.com/)
+  
+  

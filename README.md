@@ -7,7 +7,7 @@
 - ![marl] - Multi-Agent RL (MARL).
 - ![sp] - Self-Play.
 - ![evo] - Evolutionary & Genetic Algorithms (Evolution).
-- ![gener] - Generalization across environments (Generalization).
+- ![generalization] - Generalization across environments (Generalization).
 - ![nn] - Neural Networks & Optimizers (NN).
 - ![robot] - Manipulation tasks (Manipulator).
 - ![loco] - Locomotion: MuJoCo, Roboschool, etc (Locomotion)
@@ -42,7 +42,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books, imple
 [marl]: ./icons/marl.png	"Multi-Agent RL"
 [sp]: ./icons/sp.png	"Self-Play RL"
 [evo]: ./icons/evo.png	"Evolutionary & Genetic Algorithms"
-[gener]: ./icons/gener.png	"Generalization across environments"
+[generalization]: ./icons/gener.png	"Generalization across environments"
 [plan]: ./icons/plan.png	"Complex Planning Problems"
 [transfer]: ./icons/transfer.png	"Transfer Learning"
 [irl]: ./icons/irl.png	"Inverse Reinforcement Learning"
@@ -64,20 +64,20 @@ A constantly evolving list of Reinforcement Learning papers, notes, books, imple
   - Implemented in TensorFlow: A3C, PPO, TRPO, DQN
 
 ### RL Agents benchmarks
-**Benchmarks for: PPO, A2C, ACKTR, ACER**
+Benchmarks for: PPO, A2C, ACKTR, ACER
   - https://github.com/openai/baselines-results/blob/master/acktr_ppo_acer_a2c_atari.ipynb
  
-**Benchmarks for: Rainbow, c51, IQN, DQN**
+Benchmarks for: Rainbow, c51, IQN, DQN
   - https://google.github.io/dopamine/baselines/plots.html
 
-**Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN**
+Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
   - https://github.com/openai/baselines-results/blob/master/dqn_results.ipynb
 
 ## Papers
 ### Year 2018
 **Human-level performance in first-person multiplayer games with population-based deep reinforcement learning**
   - [[arXiv](https://arxiv.org/abs/1807.01281)] [[blog](https://deepmind.com/blog/capture-the-flag/)] Jaderberg et al., 2018; Google DeepMind
-  - ![maze] Maze
+  - ![navi] Navigation
   
 **Learning Dexterous In-Hand Manipulation**
   - [[arXiv](https://arxiv.org/abs/1808.00177)] [[blog](https://blog.openai.com/learning-dexterity/)] Andrychowicz et al.; OpenAI
@@ -133,7 +133,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books, imple
 
 **Building Generalizable Agents with a Realistic and Rich 3D Environment**
   - [[arXiv](https://arxiv.org/abs/1801.02209)] Wu et al., 2018; Berkeley, FAIR
-  - ![generalization] ![maze] Generalization, Maze
+  - ![generalization] ![navi] Generalization, Navigation
 
 ### Year 2017
 :star: **Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning**
@@ -247,7 +247,7 @@ A constantly evolving list of Reinforcement Learning papers, notes, books, imple
 
 :star: **Learning to Navigate in Complex Environments**
   - [[arXiv](https://arxiv.org/abs/1611.03673)] Mirowski et al., 2016; Google DeepMind
-  - ![maze] Maze
+  - ![navi] Navigation
 
 :star: **Reinforcement Learning with unsupervised auxiliary tasks** (UNREAL)
 - [[arXiv](https://arxiv.org/abs/1611.05397)] Jaderberg et al.; Google DeepMind

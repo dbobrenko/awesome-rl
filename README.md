@@ -65,10 +65,13 @@ A constantly evolving list of Reinforcement Learning papers, notes, books, imple
 
 ### RL Agents benchmarks
 **Benchmarks for: PPO, A2C, ACKTR, ACER**
-  - https://github.com/openai/baselines-results/blob/master/acktr_ppo_acer_a2c_atari.ipynb (PPO, A2C, ACKTR, ACER)
+  - https://github.com/openai/baselines-results/blob/master/acktr_ppo_acer_a2c_atari.ipynb
  
 **Benchmarks for: Rainbow, c51, IQN, DQN**
   - https://google.github.io/dopamine/baselines/plots.html
+
+**Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN**
+  - https://github.com/openai/baselines-results/blob/master/dqn_results.ipynb
 
 ## Papers
 ### Year 2018

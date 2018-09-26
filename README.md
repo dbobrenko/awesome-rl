@@ -75,6 +75,10 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 
 ## Papers
 ### Year 2018
+**Large-Scale Study of Curiosity-Driven Learning**
+  - [[blog](https://pathak22.github.io/large-scale-curiosity/)] [[pdf](https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf)] Pathak et al., 2018; OpenAI, Berkeley, Univ. of Edinburgh
+  - ![navi] ![sparse] Navigation, Sparse
+  
 **Human-level performance in first-person multiplayer games with population-based deep reinforcement learning**
   - [[arXiv](https://arxiv.org/abs/1807.01281)] [[blog](https://deepmind.com/blog/capture-the-flag/)] Jaderberg et al., 2018; Google DeepMind
   - ![navi] Navigation
@@ -88,7 +92,7 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
   - ![sparse] ![atari] Sparse, Atari
   
 **Relational Deep Reinforcement Learning**
-  - [[arXiv](https://arxiv.org/pdf/1806.01830.pdf)] Zambaldi et al.; DeepMind
+  - [[arXiv](https://arxiv.org/pdf/1806.01830.pdf)] Zambaldi et al.; Google Deepmind
   - ![plan] ![sc] Planning, Starcraft
 
 **Deep Curiosity Search: Intra-Life Exploration Improves Performance on Challenging Deep Reinforcement Learning Problems**
@@ -141,11 +145,11 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
   - ![loco] ![atari] Locomotion, Atari
 
 :star: **Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm**
-- [[arxiv](https://arxiv.org/abs/1712.01815)] Silver et al.; DeepMind
+- [[arxiv](https://arxiv.org/abs/1712.01815)] Silver et al.; Google Deepmind
 - ![sp] ![plan] ![table] Self-Play, Planning, Table
 
 :rocket: **Rainbow: Combining Improvements in Deep Reinforcement Learning** (DQN improvements combined)
-- [[arXiv](https://arxiv.org/abs/1710.02298)] Hessel et al.; Deepmind
+- [[arXiv](https://arxiv.org/abs/1710.02298)] Hessel et al.; Google Deepmind
 - ![atari] Atari
 
 **Meta Learning Shared Hierarchies**
@@ -212,7 +216,7 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 - ![plan] ![transfer] ![atari] Planning, Transfer, Atari
 
 **Distral: Robust Multitask Reinforcement Learning**
-- [[arXiv](https://arxiv.org/abs/1707.04175)] Teh et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1707.04175)] Teh et al.; Google Deepmind
 - ![transfer] ![navi] Transfer, Navigation
 
 **Emergence of Locomotion Behaviours in Rich Environments**
@@ -220,7 +224,7 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 - ![loco] Locomotion
 
 **Programmable Agents**
-- [[arXiv](https://arxiv.org/abs/1706.06383v1)] Denil et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1706.06383v1)] Denil et al.; Google Deepmind
 - ![loco] Locomotion
 
 :star: **Evolution Strategies as a Scalable Alternative to Reinforcement Learning**
@@ -228,13 +232,13 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 - ![atari] Atari
 
 **Neural Episodic Control**
-- [[arXiv](https://arxiv.org/abs/1703.01988v1)] Pritzel et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1703.01988v1)] Pritzel et al.; Google Deepmind
 - ![atari] Atari
 
 
 ### Year 2016
 **The Predictron: End-To-End Learning and Planning**
-- [[arXiv](https://arxiv.org/abs/1612.08810v2)] Silver et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1612.08810v2)] Silver et al.; Google Deepmind
 - ![model] ![plan] ![navi] Model-based, Planning, Navigation
 
 **RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning**
@@ -246,7 +250,7 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 - ![nn] NN
 
 :star: **Learning to Navigate in Complex Environments**
-  - [[arXiv](https://arxiv.org/abs/1611.03673)] Mirowski et al., 2016; Google DeepMind
+  - [[arXiv](https://arxiv.org/abs/1611.03673)] Mirowski et al., 2016; Google Deepmind
   - ![navi] Navigation
 
 :star: **Reinforcement Learning with unsupervised auxiliary tasks** (UNREAL)
@@ -271,23 +275,23 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 - ![sc] Starcraft
 
 :rocket: **Asynchronous Methods for Deep Reinforcement Learning** (A3C)
-- [[arXiv](https://arxiv.org/abs/1602.01783v2)] Mnih et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1602.01783v2)] Mnih et al.; Google Deepmind
 - :pencil: [**Notes**](./notes/a3c-agent.md)
 - ![loco] ![atari] ![navi] Locomotion, Atari, Navigation
 
 ### Year 2015
 
 :rocket: **Dueling Network Architectures for Deep Reinforcement Learning** (Dueling DQN)
-- [[arXiv](https://arxiv.org/abs/1511.06581)] Wang et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1511.06581)] Wang et al.; Google Deepmind
 - ![atari] Atari
 
 :rocket: **Prioritized Experience Replay**
-- [[arXiv](https://arxiv.org/abs/1511.05952v4)] Schaul et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1511.05952v4)] Schaul et al.; Google Deepmind
 - :pencil: [**Notes**](./notes/prioritized-exp-replay.md)
 - ![atari] Atari
 
 :rocket: **Deep Reinforcement Learning with Double Q-learning** (Double DQN)
-- [[arXiv](https://arxiv.org/abs/1509.06461)] Hasselt et al.; DeepMind
+- [[arXiv](https://arxiv.org/abs/1509.06461)] Hasselt et al.; Google Deepmind
 - ![atari] Atari
 
 **High-dimensional continuous control using generalized advantage estimation**

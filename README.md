@@ -78,6 +78,10 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 **Exploration by Random Network Distillation**
   - [[arXiv](https://arxiv.org/abs/1810.12894)] [[blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)] [[code](https://github.com/openai/random-network-distillation)] Burda et al., 2018; OpenAI
 
+**SFV: Reinforcement Learning of Physical Skills from Videos**
+  - [[arXiv](https://arxiv.org/abs/1810.03599)] [[blog](https://bair.berkeley.edu/blog/2018/10/09/sfv/)] Peng et al., 2018; Berkeley
+  - ![meta] Meta-Learning
+
 **Large-Scale Study of Curiosity-Driven Learning**
   - [[blog](https://pathak22.github.io/large-scale-curiosity/)] [[pdf](https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf)] Pathak et al., 2018; OpenAI, Berkeley, Univ. of Edinburgh
   - ![navi] ![sparse] Navigation, Sparse

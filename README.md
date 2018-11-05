@@ -75,6 +75,9 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 
 ## Papers
 ### Year 2018
+**Exploration by Random Network Distillation**
+  - [[arXiv](https://arxiv.org/abs/1810.12894)] [[blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)] [[code](https://github.com/openai/random-network-distillation)] Burda et al., 2018; OpenAI
+
 **Large-Scale Study of Curiosity-Driven Learning**
   - [[blog](https://pathak22.github.io/large-scale-curiosity/)] [[pdf](https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf)] Pathak et al., 2018; OpenAI, Berkeley, Univ. of Edinburgh
   - ![navi] ![sparse] Navigation, Sparse
@@ -82,6 +85,10 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 **Human-level performance in first-person multiplayer games with population-based deep reinforcement learning**
   - [[arXiv](https://arxiv.org/abs/1807.01281)] [[blog](https://deepmind.com/blog/capture-the-flag/)] Jaderberg et al., 2018; Google DeepMind
   - ![navi] Navigation
+  
+**Evolving Multimodal Robot Behavior via Many Stepping Stones with the Combinatorial Multi-Objective Evolutionary Algorithm**
+  - [[arXiv](https://arxiv.org/abs/1807.03392)] Huizinga & Clune, 2018; University of Wyoming
+  - ![meta] Meta-Learning
   
 **Learning Dexterous In-Hand Manipulation**
   - [[arXiv](https://arxiv.org/abs/1808.00177)] [[blog](https://blog.openai.com/learning-dexterity/)] Andrychowicz et al.; OpenAI

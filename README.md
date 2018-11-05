@@ -75,8 +75,9 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
 
 ## Papers
 ### Year 2018
-**Exploration by Random Network Distillation**
+**Exploration by Random Network Distillation** (RND)
   - [[arXiv](https://arxiv.org/abs/1810.12894)] [[blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)] [[code](https://github.com/openai/random-network-distillation)] Burda et al., 2018; OpenAI
+  - ![sparse] Sparse
 
 **SFV: Reinforcement Learning of Physical Skills from Videos**
   - [[arXiv](https://arxiv.org/abs/1810.03599)] [[blog](https://bair.berkeley.edu/blog/2018/10/09/sfv/)] Peng et al., 2018; Berkeley

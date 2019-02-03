@@ -74,6 +74,11 @@ Benchmarks for: Vanilla DQN, Double DQN, Dueling DQN, Prioritized DQN
   - https://github.com/openai/baselines-results/blob/master/dqn_results.ipynb
 
 ## Papers
+### Year 2019
+:rocket: **Go-Explore: a New Approach for Hard-Exploration Problems**
+  - [[arXiv](https://arxiv.org/abs/1901.10995)] Ecoffet et al., 2019; Uber AI Labs
+  - ![sparse] Sparse
+
 ### Year 2018
 **Exploration by Random Network Distillation** (RND)
   - [[arXiv](https://arxiv.org/abs/1810.12894)] [[blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)] [[code](https://github.com/openai/random-network-distillation)] Burda et al., 2018; OpenAI

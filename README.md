@@ -66,17 +66,19 @@
 [[Google Benchmarks for Rainbow, c51, IQN, DQN](https://google.github.io/dopamine/baselines/plots.html)]
 
 ## Policy-Based Generic Agents <a name="policy-agents"></a>
-:rocket: [[IMPALA](https://arxiv.org/abs/1802.01561v2)] Such et al., 2018 @ Uber AI Labs
+:rocket: [[Soft Actor Critic](https://arxiv.org/abs/1812.05905)] [[blog](https://ai.googleblog.com/2019/01/soft-actor-critic-deep-reinforcement.html)] [[code](https://github.com/rail-berkeley/softlearning/)] 2018 @ Google Brain, UC Berkeley
+
+:rocket: [[IMPALA](https://arxiv.org/abs/1802.01561v2)] 2018 @ Uber AI Labs
   
-:rocket: [[Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation (ACKTR, A2C)](https://arxiv.org/abs/1708.05144)] Wu et al., 2018; Univ. of Toronto, New York Univ.
+:rocket: [[Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation (ACKTR, A2C)](https://arxiv.org/abs/1708.05144)] 2018; Univ. of Toronto, New York Univ.
 
-:rocket: [[Proximal Policy Optimization Algorithms (PPO)](https://arxiv.org/abs/1707.06347)] [[blog](https://blog.openai.com/openai-baselines-ppo/)] Schulman et al., 2017 @ OpenAI
+:rocket: [[Proximal Policy Optimization Algorithms (PPO)](https://arxiv.org/abs/1707.06347)] [[blog](https://blog.openai.com/openai-baselines-ppo/)] 2017 @ OpenAI
 
-:rocket: [:pencil: Notes](./notes/a3c-agent.md) [[Asynchronous Methods for Deep Reinforcement Learning (A3C)](https://arxiv.org/abs/1602.01783v2)] Mnih et al., 2016 @ Google Deepmind 
+:rocket: [:pencil: Notes](./notes/a3c-agent.md) [[Asynchronous Methods for Deep Reinforcement Learning (A3C)](https://arxiv.org/abs/1602.01783v2)] 2016 @ Google Deepmind 
 
-[[High-dimensional continuous control using generalized advantage estimation (GAE)](https://arxiv.org/abs/1506.02438)] Schulman et al., 2015 @ Berkeley
+[[High-dimensional continuous control using generalized advantage estimation (GAE)](https://arxiv.org/abs/1506.02438)] 2015 @ Berkeley
 
-:star: [[Trust Region Policy Optimization (TRPO)](https://arxiv.org/abs/1502.05477)] Schulman et al., 2015 @ UC Berkeley
+:star: [[Trust Region Policy Optimization (TRPO)](https://arxiv.org/abs/1502.05477)] 2015 @ UC Berkeley
 
 :star: [[Actor-Critic Algorithms, pdf](https://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf)] Konda and Tsitsiklis, 2003
 
@@ -87,7 +89,7 @@
 
 :rocket: [[A Distributional Perspective on Reinforcement Learning (c51)](https://arxiv.org/abs/1707.06887)] Bellemare et al., 2018 @ Google Deepmind
 
-:rocket: [[Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/abs/1710.02298)] Hessel et al. 2017 @ Google Deepmind
+:rocket: [[Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/abs/1710.02298)] Hessel et al., 2017 @ Google Deepmind
 
 :rocket: [[Dueling Network Architectures for Deep Reinforcement Learning (Dueling DQN)](https://arxiv.org/abs/1511.06581)] Wang et al., 2015 @ Google Deepmind
 
@@ -104,42 +106,42 @@ Mnih et al., 2015 @ Google Deepmind
 :star: [[Temporal Difference Learning and TD-Gammon, pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)] Gerald Tesauro, 1995
 
 
-## ![model-based] Model-Based Generic Agents  <a name="model-based"></a>
-:star: ![navigation] [[World Models](https://arxiv.org/abs/1803.10122)] [[blog](https://worldmodels.github.io/)] Ha and Schmidhuber @ IDSIA, Google Brain, NNAISENSE
+## ![model-based] Model-Based Generic Agents  <a name="model-based"></a>\
+[[Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1903.00374)] 2019 @ Google Brain, etc
 
-![locomotion] [[Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning](https://arxiv.org/abs/1708.02596)] [[blog](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)] [[code](https://github.com/nagaban2/nn_dynamics)] Nagabandi et al., 2017 @ Berkeley
+:star: ![navigation] [[World Models](https://arxiv.org/abs/1803.10122)] [[blog](https://worldmodels.github.io/)] 2018 @ IDSIA, Google Brain, NNAISENSE
 
-![locomotion] [[Learning model-based planning from scratch](https://arxiv.org/abs/1707.06170)], [[blog](https://deepmind.com/blog/agents-imagine-and-plan/)] Pascanu et al., 2017 @ Google DeepMind
+![locomotion] [[Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning](https://arxiv.org/abs/1708.02596)] [[blog](http://bair.berkeley.edu/blog/2017/11/30/model-based-rl/)] [[code](https://github.com/nagaban2/nn_dynamics)] 2017 @ Berkeley
 
-![navigation] [[The Predictron: End-To-End Learning and Planning](https://arxiv.org/abs/1612.08810v2)] Silver et al., 2016 @ Google Deepmind
+![locomotion] [[Learning model-based planning from scratch](https://arxiv.org/abs/1707.06170)], [[blog](https://deepmind.com/blog/agents-imagine-and-plan/)] 2017 @ Google DeepMind
+
+![navigation] [[The Predictron: End-To-End Learning and Planning](https://arxiv.org/abs/1612.08810v2)] 2016 @ Google Deepmind
 
 
 ## ![evolution] Evolutionary Algorithms <a name="evolution"></a>
-[[Back to Basics: Benchmarking Canonical Evolution Strategies for Playing Atari](https://arxiv.org/abs/1802.08842)] Chrabaszcz et al., 2018 @ Univ. of Freiburg
+[[Back to Basics: Benchmarking Canonical Evolution Strategies for Playing Atari](https://arxiv.org/abs/1802.08842)] 2018 @ Univ. of Freiburg
 
-:star: ![auto-ml] [[Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/abs/1802.01548v2)] Real et al., 2018 @ Google Brain
-  
-:star: ![locomotion] [[Deep Neuroevolution](https://arxiv.org/abs/1712.06567)] Such et al., 2017 @ Uber AI Labs
+:star: ![locomotion] [[Deep Neuroevolution](https://arxiv.org/abs/1712.06567)] 2017 @ Uber AI Labs
 
-:star: [[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864v1)] Salimans et al., 2017 @ OpenAI
+:star: [[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864v1)] 2017 @ OpenAI
 
-[[Evolving Large-Scale Neural Networks for Vision-Based Reinforcement Learning, pdf](http://people.idsia.ch/~juergen/gecco2013torcs.pdf)] Koutnik et al., 2013 @ IDSIA, USI-SUPSI
+[[Evolving Large-Scale Neural Networks for Vision-Based Reinforcement Learning, pdf](http://people.idsia.ch/~juergen/gecco2013torcs.pdf)] 2013 @ IDSIA, USI-SUPSI
 
 
 ## ![exploration] Exploration <a name="exploration"></a>
-:rocket: [[Go-Explore](https://arxiv.org/abs/1901.10995)] Ecoffet et al., 2019 @ Uber AI Labs
+:rocket: [[Go-Explore](https://arxiv.org/abs/1901.10995)] 2019 @ Uber AI Labs
 
-[[Exploration by Random Network Distillation (RND)](https://arxiv.org/abs/1810.12894)] [[blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)] [[code](https://github.com/openai/random-network-distillation)] Burda et al., 2018 @ OpenAI
+[[Exploration by Random Network Distillation (RND)](https://arxiv.org/abs/1810.12894)] [[blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)] [[code](https://github.com/openai/random-network-distillation)] 2018 @ OpenAI
 
-![navigation] [[Large-Scale Study of Curiosity-Driven Learning](https://arxiv.org/abs/1808.04355)] [[blog](https://pathak22.github.io/large-scale-curiosity/)] Pathak et al., 2018 @ OpenAI, Berkeley, Univ. of Edinburgh
+![navigation] [[Large-Scale Study of Curiosity-Driven Learning](https://arxiv.org/abs/1808.04355)] [[blog](https://pathak22.github.io/large-scale-curiosity/)] 2018 @ OpenAI, Berkeley, Univ. of Edinburgh
 
-:star: [[RUDDER: Return Decomposition for Delayed Rewards](https://arxiv.org/abs/1806.07857)] [[code](https://github.com/ml-jku/baselines-rudder)] Arjona-Medina et al., 2018 @ Johannes Kepler Univ.ersity Linz
+:star: [[RUDDER: Return Decomposition for Delayed Rewards](https://arxiv.org/abs/1806.07857)] [[code](https://github.com/ml-jku/baselines-rudder)] 2018 @ Johannes Kepler Univ. Linz
 
-[[Deep Curiosity Search](https://arxiv.org/abs/1806.00553)] Stanton and Clune, 2018 @ Univ. of Wyoming
+[[Deep Curiosity Search](https://arxiv.org/abs/1806.00553)] 2018 @ Univ. of Wyoming
 
-![locomotion] [[Parameter Space Noise for Exploration](https://arxiv.org/abs/1706.01905)] Plappert et al., 2017 @ OpenAI, Karlsruhe Institute of Technology
+![locomotion] [[Parameter Space Noise for Exploration](https://arxiv.org/abs/1706.01905)] 2017 @ OpenAI, Karlsruhe Inst. of Tech.
 
-:star: ![transfer] [[Imagination-Augmented Agents for Deep Reinforcement Learning (I2As)](https://arxiv.org/abs/1707.06203)] [[blog](https://deepmind.com/blog/agents-imagine-and-plan/)] Weber et al., 2017 @ DeepMind
+:star: ![transfer] [[Imagination-Augmented Agents for Deep Reinforcement Learning (I2As)](https://arxiv.org/abs/1707.06203)] [[blog](https://deepmind.com/blog/agents-imagine-and-plan/)] 2017 @ DeepMind
 
 
 ## ![self-play] Self-Play <a name="self-play"></a>
@@ -185,6 +187,7 @@ Mnih et al., 2015 @ Google Deepmind
 
 [[Playing FPS Games with Deep Reinforcement Learning (VizDoom 2016 Limited DM 2nd place)](https://arxiv.org/abs/1609.05521)] Lample, Chaplot, 2016 @ CMU
 
+
 ## ![manipulation] Manipulation <a name="manipulation"></a>
 ![generalization] [[Learning Dexterous In-Hand Manipulation](https://arxiv.org/abs/1808.00177)] [[blog](https://blog.openai.com/learning-dexterity/)] Andrychowicz et al., 2018 @ OpenAI
 
@@ -199,6 +202,8 @@ Mnih et al., 2015 @ Google Deepmind
 
 ## ![auto-ml] Auto ML <a name="auto-ml"></a>
 [[AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/abs/1805.09501)] Cubuk et al., 2018 @ Google Brain
+
+:star: ![evolution] [[Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/abs/1802.01548v2)] Real et al., 2018 @ Google Brain
 
 :star: [[Learning Transferable Architectures for Scalable Image Recognition](https://arxiv.org/abs/1707.07012)] Zoph et al., 2017 @ Google Brain
 
@@ -218,11 +223,11 @@ Mnih et al., 2015 @ Google Deepmind
 ## Search for new Papers
 [[A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866)] Arulkumaran et al., 2017
 
-**Another Awesome Deep RL list:** https://github.com/tigerneil/awesome-deep-rl
+Another Awesome Deep RL list: https://github.com/tigerneil/awesome-deep-rl
 
-**ArXiv Sanity Preserver**: A recommender system for searching papers that are published on arXiv: http://www.arxiv-sanity.com/
+ArXiv Sanity Preserver: http://www.arxiv-sanity.com/
   
-**GitXiv**: A recommender system for searching papers and their supplementary materials: http://www.gitxiv.com/
+GitXiv: http://www.gitxiv.com/
 
 
 ## Misc

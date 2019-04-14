@@ -32,7 +32,7 @@
   - [Benchmarks](#benchmarks)
   - [Policy-Based Generic Agents](#policy-agents)
   - [Value-Based Generic Agents](#value-agents)
-  - ![model-based] [Model-Based Generic Agents](#model-based)
+  - [![model-based] Model-Based Generic Agents](#model-based)
   - ![evolution] [Evolutionary & Genetic Algorithms](#evolution)
   - ![exploration] [Exploration](#exploration)
   - ![self-play] [Self-Play](#self-play)
@@ -68,7 +68,7 @@
 ## Policy-Based Generic Agents <a name="policy-agents"></a>
 :rocket: [[IMPALA](https://arxiv.org/abs/1802.01561v2)] Such et al., 2018 @ Uber AI Labs
   
-:rocket: [[Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation (ACKTR, A2C)](https://arxiv.org/abs/1708.05144)] Wu et al., 2018; Univ. of Toronto, New York Univ.ersity
+:rocket: [[Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation (ACKTR, A2C)](https://arxiv.org/abs/1708.05144)] Wu et al., 2018; Univ. of Toronto, New York Univ.
 
 :rocket: [[Proximal Policy Optimization Algorithms (PPO)](https://arxiv.org/abs/1707.06347)] [[blog](https://blog.openai.com/openai-baselines-ppo/)] Schulman et al., 2017 @ OpenAI
 
@@ -99,7 +99,7 @@
 [[pdf](hhttp://www.readcube.com/articles/10.1038/nature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D)]
 Mnih et al., 2015 @ Google Deepmind
 
-:rocket: [[Playing Atari with Deep Reinforcement Learning** (DQN)(https://arxiv.org/abs/1312.5602)] Mnih et al., 2013 @ DeepMind Technologies
+:rocket: [[Playing Atari with Deep Reinforcement Learning** (DQN)](https://arxiv.org/abs/1312.5602)] Mnih et al., 2013 @ DeepMind Technologies
 
 :star: [[Temporal Difference Learning and TD-Gammon, pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)] Gerald Tesauro, 1995
 
@@ -157,7 +157,7 @@ Mnih et al., 2015 @ Google Deepmind
 
 
 ## ![multi-agent-rl] Multi-Agent RL
-[[Learning with Opponent-Learning Awareness (LOLA)(https://arxiv.org/abs/1709.04326)] [[blog](https://blog.openai.com/learning-to-model-other-minds/)] Foerster et al., 2017 @ OpenAI, Oxford, Berkeley, CMU
+[[Learning with Opponent-Learning Awareness (LOLA)](https://arxiv.org/abs/1709.04326)] [[blog](https://blog.openai.com/learning-to-model-other-minds/)] Foerster et al., 2017 @ OpenAI, Oxford, Berkeley, CMU
 
 
 ## ![inverse-rl] Inverse RL <a name="inverse-rl"></a>
@@ -220,14 +220,13 @@ Mnih et al., 2015 @ Google Deepmind
 
 **Another Awesome Deep RL list:** https://github.com/tigerneil/awesome-deep-rl
 
-**ArXiv Sanity Preserver**: A recommender system for searching papers that are published on arXiv.
-  - [http://www.arxiv-sanity.com/](http://www.arxiv-sanity.com/)
+**ArXiv Sanity Preserver**: A recommender system for searching papers that are published on arXiv: http://www.arxiv-sanity.com/
   
 **GitXiv**: A recommender system for searching papers and their supplementary materials: http://www.gitxiv.com/
 
 
 ## Misc
-[[How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)] S. Keshav, 2007 @ Univ.ersity of Waterloo
+[[How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)] S. Keshav, 2007 @ Univ. of Waterloo
 
 
 [atari]: ./icons/atari.png	"Atari 2600 games"

@@ -19,8 +19,8 @@
 - ![inverse-rl] - Inverse Reinforcement Learning.
 - ![meta-learning] - Meta-Learning.
 - ![exploration] - Curiosity Learning, Advanced Exploration.
-- ![atari] - Atari game (Atari).
 - ![table] - Table games (Table).
+- ![atari] - Atari game (Atari).
 - ![doom] - Doom game (Doom).
 - ![sc] - Starcraft game (Starcraft).
 - ![go] - Go game (Go).
@@ -33,16 +33,16 @@
   - [Policy-Based Generic Agents](#policy-agents)
   - [Value-Based Generic Agents](#value-agents)
   - [![model-based] Model-Based Generic Agents](#model-based)
-  - ![evolution] [Evolutionary & Genetic Algorithms](#evolution)
-  - ![exploration] [Exploration](#exploration)
-  - ![self-play] [Self-Play](#self-play)
-  - ![meta-learning] [Meta-Learning](#meta-learning)
-  - ![multi-agent-rl] [Multi-Agent RL](#multi-agent-rl)
-  - ![inverse-rl] [Inverse RL](#inverse-rl)
-  - ![navigation] [Navigation](#navigation)
-  - ![manipulation] [Manipulation](#manipulation)
-  - ![locomotion] [Locomotion](#locomotion)
-  - ![auto-ml] [Auto ML](#auto-ml)
+  - [![evolution] Evolutionary & Genetic Algorithms](#evolution)
+  - [![exploration] Exploration](#exploration)
+  - [![self-play] Self-Play](#self-play)
+  - [![meta-learning] Meta-Learning](#meta-learning)
+  - [![multi-agent-rl] Multi-Agent RL](#multi-agent-rl)
+  - [![inverse-rl] Inverse RL](#inverse-rl)
+  - [![navigation] Navigation](#navigation)
+  - [![manipulation] Manipulation](#manipulation)
+  - [![locomotion] Locomotion](#locomotion)
+  - [![auto-ml] Auto ML](#auto-ml)
   - [Other Domains](#other-domains)
   - [Books](#books)
   - [Search for new Papers](#search-for-new-papers)

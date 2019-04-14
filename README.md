@@ -126,7 +126,7 @@ Mnih et al., 2015 @ Google Deepmind
 [[Evolving Large-Scale Neural Networks for Vision-Based Reinforcement Learning, pdf](http://people.idsia.ch/~juergen/gecco2013torcs.pdf)] Koutnik et al., 2013 @ IDSIA, USI-SUPSI
 
 
-## ![sparse] Exploration <a name="exploration"></a>
+## ![exploration] Exploration <a name="exploration"></a>
 :rocket: [[Go-Explore](https://arxiv.org/abs/1901.10995)] Ecoffet et al., 2019 @ Uber AI Labs
 
 [[Exploration by Random Network Distillation (RND)](https://arxiv.org/abs/1810.12894)] [[blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)] [[code](https://github.com/openai/random-network-distillation)] Burda et al., 2018 @ OpenAI
@@ -192,12 +192,12 @@ Mnih et al., 2015 @ Google Deepmind
 
 ![generalization] [[Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://arxiv.org/abs/1710.06537)], [[blog](https://blog.openai.com/generalizing-from-simulation/)] Peng et al., 2017 @ OpenAI, Berkeley
 
-## Locomotion <a name="locomotion"></a>
+## ![locomotion] Locomotion <a name="locomotion"></a>
 [[Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/abs/1707.02286)] [[blog](https://deepmind.com/blog/producing-flexible-behaviours-simulated-environments/)] Heess et al., 2017 @ DeepMind
 
 [[Programmable Agents](https://arxiv.org/abs/1706.06383v1)] Denil et al., 2017 @ Google Deepmind
 
-## Auto ML <a name="auto-ml"></a>
+## ![auto-ml] Auto ML <a name="auto-ml"></a>
 [[AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/abs/1805.09501)] Cubuk et al., 2018 @ Google Brain
 
 :star: [[Learning Transferable Architectures for Scalable Image Recognition](https://arxiv.org/abs/1707.07012)] Zoph et al., 2017 @ Google Brain

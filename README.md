@@ -106,7 +106,7 @@ Mnih et al., 2015 @ Google Deepmind
 :star: [[Temporal Difference Learning and TD-Gammon, pdf](http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf)] Gerald Tesauro, 1995
 
 
-## ![model-based] Model-Based Generic Agents  <a name="model-based"></a>\
+## ![model-based] Model-Based Generic Agents  <a name="model-based"></a>
 [[Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1903.00374)] 2019 @ Google Brain, etc
 
 :star: ![navigation] [[World Models](https://arxiv.org/abs/1803.10122)] [[blog](https://worldmodels.github.io/)] 2018 @ IDSIA, Google Brain, NNAISENSE
@@ -171,15 +171,17 @@ Mnih et al., 2015 @ Google Deepmind
 
 
 ## ![navigation] Navigation <a name="navigation"></a>
-[[Human-level performance in first-person multiplayer games with population-based deep reinforcement learning](https://arxiv.org/abs/1807.01281)] [[blog](https://deepmind.com/blog/capture-the-flag/)] Jaderberg et al., 2018 @ Google DeepMind
+[[Learning to Navigate in Cities Without a Map](https://arxiv.org/abs/1804.00168)] Mirowski et al, 2019 @ Deepmind
 
-![generalization] [[Building Generalizable Agents with a Realistic and Rich 3D Environment](https://arxiv.org/abs/1801.02209)] Wu et al., 2018 @ Berkeley, FAIR
+[[Human-level performance in first-person multiplayer games with population-based deep reinforcement learning](https://arxiv.org/abs/1807.01281)] [[blog](https://deepmind.com/blog/capture-the-flag/)] Jaderberg et al, 2018 @ DeepMind
 
-![transfer] [Distral: Robust Multitask Reinforcement Learning](https://arxiv.org/abs/1707.04175)] Teh et al., 2017 @ Google Deepmind
+![generalization] [[Building Generalizable Agents with a Realistic and Rich 3D Environment](https://arxiv.org/abs/1801.02209)] Wu et al, 2018 @ Berkeley, FAIR
+
+:rocket: [[Learning to Navigate in Complex Environments](https://arxiv.org/abs/1611.03673)] Mirowski et al., 2017 @ Deepmind
+
+![transfer] [Distral: Robust Multitask Reinforcement Learning](https://arxiv.org/abs/1707.04175)] Teh et al, 2017 @ Deepmind
 
 ![meta-learning] [[RL<sup>2</sup>: Fast Reinforcement Learning via Slow Reinforcement Learning](https://arxiv.org/abs/1611.02779)] Duan et al., 2016 @ Berkeley, OpenAI
-
-:star: [[Learning to Navigate in Complex Environments](https://arxiv.org/abs/1611.03673)] Mirowski et al., 2016 @ Google Deepmind
 
 :star: [:pencil: Notes](./notes/unreal-agent.md) ![locomotion] [[Reinforcement Learning with unsupervised auxiliary tasks (UNREAL)](https://arxiv.org/abs/1611.05397)] Jaderberg et al., 2016 @ Google DeepMind
 

@@ -235,6 +235,8 @@ GitXiv: http://www.gitxiv.com/
 ## Misc
 [[How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)] S. Keshav, 2007 @ Univ. of Waterloo
 
+[Transfromers: [Attention is all you need](https://arxiv.org/abs/1706.03762)] Vaswani et al. 2017 @ Google Brain/Research
+
 
 [atari]: ./icons/atari.png	"Atari 2600 games"
 [doom]: ./icons/doom.png	"Doom game"

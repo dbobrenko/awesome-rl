@@ -52,6 +52,8 @@
 ## RL Frameworks & Implementations <a name="frameworks"></a>
 [[Baselines @ OpenAI](https://github.com/openai/baselines)] TensorFlow: PPO, A2C, DQN, TRPO, ACKTR, DDPG, HER, GAIL, etc
   
+[[RLlib @ Ray](https://github.com/ray-project/ray/tree/master/rllib) Pytorch / TensorFlow]
+  
 [[Dopamine @ Google](https://github.com/google/dopamine)] TensorFlow: Rainbow, c51, IQN, DQN, etc
  
 [[TensorForce](https://github.com/reinforceio/tensorforce)] TensorFlow: A3C, PPO, TRPO, DQN, etc

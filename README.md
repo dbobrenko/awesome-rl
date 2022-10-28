@@ -51,6 +51,8 @@
 
 ## RL Frameworks & Implementations <a name="frameworks"></a>
 [[Baselines @ OpenAI](https://github.com/openai/baselines)] TensorFlow: PPO, A2C, DQN, TRPO, ACKTR, DDPG, HER, GAIL, etc
+
+[[Baselines @ DLR-RM](https://github.com/DLR-RM/stable-baselines3)] Pytorch: Custom envs, custom policies
   
 [[RLlib @ Ray](https://github.com/ray-project/ray/tree/master/rllib) Pytorch / TensorFlow]
   

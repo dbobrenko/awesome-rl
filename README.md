@@ -233,6 +233,8 @@ Mnih et al., 2015 @ Google Deepmind
 
 Another Awesome Deep RL list: https://github.com/tigerneil/awesome-deep-rl
 
+Awesome Offline RL: https://github.com/hanjuku-kaso/awesome-offline-rl
+
 ArXiv Sanity Preserver: http://www.arxiv-sanity.com/
   
 GitXiv: http://www.gitxiv.com/

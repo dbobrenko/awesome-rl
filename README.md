@@ -50,6 +50,8 @@
 
 
 ## RL Frameworks & Implementations <a name="frameworks"></a>
+[[Stable Baselines3](https://stable-baselines3.readthedocs.io/en/master/)] PyTorch: MaskablePPO, PPO, A2C, DQN, etc
+
 [[Baselines @ OpenAI](https://github.com/openai/baselines)] TensorFlow: PPO, A2C, DQN, TRPO, ACKTR, DDPG, HER, GAIL, etc
 
 [[Baselines @ DLR-RM](https://github.com/DLR-RM/stable-baselines3)] Pytorch: Custom envs, custom policies
